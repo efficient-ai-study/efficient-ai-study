@@ -40,9 +40,9 @@ FP8 Quantization: The Power of the Exponent	| https://arxiv.org/abs/2208.09225 |
 ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers	| https://arxiv.org/abs/2206.01861	| Quantization
 Extreme Compression for Pre-trained Transformers Made Simple and Efficient	| https://arxiv.org/abs/2206.01859	| Quantization
 Towards Efficient Post-training Quantization of Pre-trained Language Models	| https://arxiv.org/abs/2206.01859	| Quantization
-Leveraging Inter-Layer Dependency for Post-Training Quantization	|	No links | Quantization
+Leveraging Inter-Layer Dependency for Post-Training Quantization	|	https://nips.cc/Conferences/2022/Schedule?showEvent=54389 | Quantization
 Entropy-Driven Mixed-Precision Quantization for Deep Network Design on IoT Devices	| https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=54104 |	Quantization 
-Redistribution of Weights and Activations for AdderNet Quantization	| No links | Quantization
+Redistribution of Weights and Activations for AdderNet Quantization	| https://nips.cc/Conferences/2022/Schedule?showEvent=54812 | Quantization
 Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning	| https://arxiv.org/abs/2208.11580 |	Quantization
 ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences	| https://nips.cc/Conferences/2022/Schedule?showEvent=55162 | Quantization
 Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer	| https://arxiv.org/abs/2201.07703 |	Quantization
@@ -54,7 +54,7 @@ SAViT: Structure-Aware Vision Transformer Pruning via Collaborative Optimization
 Recall Distortion in Neural Network Pruning and the Undecayed Pruning Algorithm	| https://arxiv.org/abs/2206.02976 |	Pruning
 Pruning Neural Networks via Coresets and Convex Geometry: Towards No Assumptions	| https://arxiv.org/abs/2209.08554 |	Pruning
 Robust Binary Models by Pruning Randomly-initialized Networks	| https://arxiv.org/abs/2202.01341 |	Pruning
-On Neural Network Pruning's Effect on Generalization	| https://nips.cc/Conferences/2022/Schedule?showEvent=53796 |	Pruning
+On Neural Network Pruning's Effect on Generalization	| https://nips.cc/Conferences/2022/Schedule?showEvent=54812 |	Pruning
 A Fast Post-Training Pruning Framework for Transformers	| https://arxiv.org/abs/2204.09656 |	Pruning
 VTC-LFC: Vision Transformer Compression with Low-Frequency Components	| https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=54752 |	Compression
 Lossless Compression of Deep Neural Networks: A High-dimensional Neural Tangent Kernel Approach	| https://nips.cc/Conferences/2022/Schedule?showEvent=55429; https://arxiv.org/abs/2001.00218 |	Compression
