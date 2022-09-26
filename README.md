@@ -24,7 +24,7 @@ When | Who | What | Links | Issue # | Etc.
 11/1 |
 11/8 |
 11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #3 | -
-11/22 |
+11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | #4 | -
 11/29 |
 12/6 |
 12/13 |
