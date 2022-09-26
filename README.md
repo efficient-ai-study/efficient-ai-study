@@ -41,7 +41,7 @@ ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale T
 Extreme Compression for Pre-trained Transformers Made Simple and Efficient	| https://arxiv.org/abs/2206.01859	| Quantization
 Towards Efficient Post-training Quantization of Pre-trained Language Models	| https://arxiv.org/abs/2206.01859	| Quantization
 Leveraging Inter-Layer Dependency for Post-Training Quantization	|	No links | Quantization
-Entropy-Driven Mixed-Precision Quantization for Deep Network Design on IoT Devices	| No links |	Quantization 
+Entropy-Driven Mixed-Precision Quantization for Deep Network Design on IoT Devices	| https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=54104 |	Quantization 
 Redistribution of Weights and Activations for AdderNet Quantization	| No links | Quantization
 Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning	| https://arxiv.org/abs/2208.11580 |	Quantization
 ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences	| No Links | Quantization
