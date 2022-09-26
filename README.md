@@ -28,8 +28,8 @@ When | Who | What | Links | Issue # | Etc.
 11/29 |
 12/6 |
 12/13 |
-12/20 |
-12/27 |
+12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | https://arxiv.org/pdf/2101.04799.pdf | #2 | -
+12/27 | 
 
 ## 논문 후보 (Neurips 2022)
 아직 공개가 되지 않은 논문도 많긴하지만, 차차 공개될 것으로 예상합니다.
