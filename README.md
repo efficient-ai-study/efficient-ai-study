@@ -44,19 +44,19 @@ Leveraging Inter-Layer Dependency for Post-Training Quantization	|	No links | Qu
 Entropy-Driven Mixed-Precision Quantization for Deep Network Design on IoT Devices	| https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=54104 |	Quantization 
 Redistribution of Weights and Activations for AdderNet Quantization	| No links | Quantization
 Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning	| https://arxiv.org/abs/2208.11580 |	Quantization
-ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences	| No Links | Quantization
+ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences	| https://nips.cc/Conferences/2022/Schedule?showEvent=55162 | Quantization
 Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer	| https://arxiv.org/abs/2201.07703 |	Quantization
-Structural Pruning via Latency-Saliency Knapsack	| - |	Pruning
-Advancing Model Pruning via Bi-level Optimization | - |		Pruning
-Pruning has a disparate impact on model accuracy		| - | Pruning
+Structural Pruning via Latency-Saliency Knapsack	| https://nips.cc/Conferences/2022/Schedule?showEvent=52841 |	Pruning
+Advancing Model Pruning via Bi-level Optimization | https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=55360 |		Pruning
+Pruning has a disparate impact on model accuracy		| https://arxiv.org/abs/2205.13574 | Pruning
 Data-Efficient Structured Pruning via Submodular Optimization |	https://arxiv.org/abs/2203.04940 |	Pruning
-SAViT: Structure-Aware Vision Transformer Pruning via Collaborative Optimization	| - |	Pruning
-Recall Distortion in Neural Network Pruning and the Undecayed Pruning Algorithm	| - |	Pruning
-Pruning Neural Networks via Coresets and Convex Geometry: Towards No Assumptions	| - |	Pruning
-Robust Binary Models by Pruning Randomly-initialized Networks	| - |	Pruning
+SAViT: Structure-Aware Vision Transformer Pruning via Collaborative Optimization	| https://nips.cc/Conferences/2022/Schedule?showEvent=55067 |	Pruning
+Recall Distortion in Neural Network Pruning and the Undecayed Pruning Algorithm	| https://arxiv.org/abs/2206.02976 |	Pruning
+Pruning Neural Networks via Coresets and Convex Geometry: Towards No Assumptions	| https://arxiv.org/abs/2209.08554 |	Pruning
+Robust Binary Models by Pruning Randomly-initialized Networks	| https://arxiv.org/abs/2202.01341 |	Pruning
 On Neural Network Pruning's Effect on Generalization	| - |	Pruning
-A Fast Post-Training Pruning Framework for Transformers	| - |	Pruning
-VTC-LFC: Vision Transformer Compression with Low-Frequency Components	| - |	Compression
-Lossless Compression of Deep Neural Networks: A High-dimensional Neural Tangent Kernel Approach	| - |	Compression
-Fine-tuning Language Models over Slow Networks using Activation Compression with Guarantees	| - |	Compression
+A Fast Post-Training Pruning Framework for Transformers	| https://arxiv.org/abs/2204.09656 |	Pruning
+VTC-LFC: Vision Transformer Compression with Low-Frequency Components	| https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=54752 |	Compression
+Lossless Compression of Deep Neural Networks: A High-dimensional Neural Tangent Kernel Approach	| https://nips.cc/Conferences/2022/Schedule?showEvent=55429; https://arxiv.org/abs/2001.00218 |	Compression
+Fine-tuning Language Models over Slow Networks using Activation Compression with Guarantees	| https://arxiv.org/abs/2206.01299 |	Compression
 Deep Compression of Pre-trained Transformer Models	| - |	Compression
