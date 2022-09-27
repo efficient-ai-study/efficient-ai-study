@@ -22,7 +22,7 @@ When | Who | What | Links | Issue # | Etc.
 10/18 | 이승현 | Ensemble Knowledge Guided Sub-network Search and Fine-tuning for Filter Pruning | arxiv.org/abs/2203.02651 | #4 | -
 10/25 |
 11/1 |
-11/8 | 이경준 | Hiddenite: 4K-PE Hidden Network Inference 4D-Tensor Engine Exploiting On-Chip Model Construction Achieving 34.8-to-16.0TOPS/W for CIFAR-100 and ImageNet | #5 | -
+11/8 | 이경준 | Hiddenite: 4K-PE Hidden Network Inference 4D-Tensor Engine Exploiting On-Chip Model Construction Achieving 34.8-to-16.0TOPS/W for CIFAR-100 and ImageNet |ieeexplore.ieee.org/document/9731668 | #5 | -
 11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #3 | -
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | - | -
 11/29 |
