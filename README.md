@@ -26,7 +26,7 @@ When | Who | What | Links | Issue # | Etc.
 11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #3 | -
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | - | -
 11/29 |
-12/6 |
+12/6 | 박준규 | It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | arxiv.org/abs/2203.17008 | - | -
 12/13 |
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
 12/27 | 
