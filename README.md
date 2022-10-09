@@ -17,7 +17,7 @@
 추가 디스커션은 Issue를 통해 이뤄지도록 합니다.
 
 When | Who | What | Links | Issue # | Etc.
----- | -------- | ------------------------------------------------------------ | ----------------------- | --------------------- | ----
+---- | -------- | ----------------------------------------- | ----------------------- | --------------------- | ----
 10/11 | 권세중 | Introduction to Efficient AI | - | #1 | -
 10/18 | 이승현 | Ensemble Knowledge Guided Sub-network Search and Fine-tuning for Filter Pruning | arxiv.org/abs/2203.02651 | #7 | -
 10/25 | 이준형 |  LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale | arxiv.org/abs/2208.07339 | #9 | - 
