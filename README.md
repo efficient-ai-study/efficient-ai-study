@@ -25,13 +25,13 @@ When | Who | What | Links | Issue # | Etc.
 11/8 | 이경준 | Hiddenite: 4K-PE Hidden Network Inference 4D-Tensor Engine Exploiting On-Chip Model Construction Achieving 34.8-to-16.0TOPS/W for CIFAR-100 and ImageNet |ieeexplore.ieee.org/document/9731668 | #8 | -
 11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #4 | -
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | #6 | -
-11/29 | 김정훈 | GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS | https://openreview.net/pdf?id=tcbBPnfwxS | TBD
+11/29 | 김정훈 | GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS | https://openreview.net/pdf?id=tcbBPnfwxS | #11 | -
 12/6 | 박준규 | It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | arxiv.org/abs/2203.17008 | - | -
 12/13 |
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
 12/27 | 
 
-## 논문 후보 (Neurips 2022)
+## 논문 후보 (Neurips 2022 & ICLR 2023)
 아직 공개가 되지 않은 논문도 많긴하지만, 차차 공개될 것으로 예상합니다.
 
 Title | Link |	Keyword
@@ -60,3 +60,4 @@ VTC-LFC: Vision Transformer Compression with Low-Frequency Components	| https://
 Lossless Compression of Deep Neural Networks: A High-dimensional Neural Tangent Kernel Approach	| https://nips.cc/Conferences/2022/Schedule?showEvent=55429; https://arxiv.org/abs/2001.00218 |	Compression
 Fine-tuning Language Models over Slow Networks using Activation Compression with Guarantees	| https://arxiv.org/abs/2206.01299 |	Compression
 Deep Compression of Pre-trained Transformer Models	| https://nips.cc/Conferences/2022/Schedule?showEvent=53013 |	Compression
+GPTQ: Accurate Quantization for Generative Pre-trained Transformers|https://openreview.net/forum?id=tcbBPnfwxS | Quantization 
