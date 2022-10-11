@@ -29,7 +29,7 @@ When | Who | What | Links | Issue # | Etc.
 12/6 | 박준규 | It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | arxiv.org/abs/2203.17008 | - | -
 12/13 | 김정훈 | GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS | https://openreview.net/pdf?id=tcbBPnfwxS | #11 | -
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
-12/27 | 
+12/27 | 김민재 | Software Systems on DNN Inference and Training | #14 | -
 
 ## 논문 후보 (Neurips 2022 & ICLR 2023)
 아직 공개가 되지 않은 논문도 많긴하지만, 차차 공개될 것으로 예상합니다.
