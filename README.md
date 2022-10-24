@@ -47,7 +47,7 @@ Entropy-Driven Mixed-Precision Quantization for Deep Network Design on IoT Devic
 Redistribution of Weights and Activations for AdderNet Quantization	| https://nips.cc/Conferences/2022/Schedule?showEvent=54812 | Quantization
 Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning	| https://arxiv.org/abs/2208.11580 |	Quantization
 ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences	| https://nips.cc/Conferences/2022/Schedule?showEvent=55162 | Quantization
-Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer	| https://arxiv.org/abs/2201.07703 |	Quantization
+Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer	| https://arxiv.org/abs/2210.06707 |	Quantization
 Structural Pruning via Latency-Saliency Knapsack	| https://nips.cc/Conferences/2022/Schedule?showEvent=52841 |	Pruning
 Advancing Model Pruning via Bi-level Optimization | https://neurips.cc/Conferences/2022/ScheduleMultitrack?event=55360 |		Pruning
 Pruning has a disparate impact on model accuracy		| https://arxiv.org/abs/2205.13574 | Pruning
