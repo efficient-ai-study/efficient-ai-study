@@ -28,7 +28,7 @@ When | Who | What | Links | Issue # | Etc.
 11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #4 | -
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | #6 | -
 11/29 | 김민수 | Understanding and Improving Knowledge Distillation for Quantization-Aware Training of Large Transformer Encoders | | #12 | -
-12/6 | 박준규 | It's All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | arxiv.org/abs/2203.17008 | - | -
+12/6 | - | - | - | - | -
 12/13 | 김정훈 | GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS | https://openreview.net/pdf?id=tcbBPnfwxS | #11 | -
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
 12/27 | 김민재 | Software Systems on DNN Inference and Training | | #14 | -
