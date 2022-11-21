@@ -25,10 +25,10 @@ When | Who | What | Links | Issue # | Etc.
 10/25 | 이준형 |  LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale | arxiv.org/abs/2208.07339 | #9 | - 
 11/1 | 김태수 | DietCode: Automatic optimization for dynamic tensor program | https://www.amazon.science/publications/dietcode-automatic-optimization-for-dynamic-tensor-program | - | -
 11/8 | 이경준 | Hiddenite: 4K-PE Hidden Network Inference 4D-Tensor Engine Exploiting On-Chip Model Construction Achieving 34.8-to-16.0TOPS/W for CIFAR-100 and ImageNet |ieeexplore.ieee.org/document/9731668 | #8 | -
-11/15 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #4 | -
+11/15 | 권세중 | AlphaTuning | https://arxiv.org/abs/2210.03858 | #26
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | #6 | -
 11/29 | 김민수 | Understanding and Improving Knowledge Distillation for Quantization-Aware Training of Large Transformer Encoders | | #12 | -
-12/6 | - | - | - | - | -
+12/6 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #4 | -
 12/13 | 김정훈 | GPTQ: ACCURATE POST-TRAINING QUANTIZATION FOR GENERATIVE PRE-TRAINED TRANSFORMERS | https://openreview.net/pdf?id=tcbBPnfwxS | #11 | -
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
 12/27 | 김민재 | Software Systems on DNN Inference and Training | | #14 | -
