@@ -27,7 +27,7 @@ When | Who | What | Links | Issue # | Etc.
 11/8 | 이경준 | Hiddenite: 4K-PE Hidden Network Inference 4D-Tensor Engine Exploiting On-Chip Model Construction Achieving 34.8-to-16.0TOPS/W for CIFAR-100 and ImageNet |ieeexplore.ieee.org/document/9731668 | #8 | -
 11/15 | 권세중 | AlphaTuning | https://arxiv.org/abs/2210.03858 | #26
 11/22 | 김형준 | EfficientViT | arxiv.org/abs/2205.14756 | #6 | -
-11/29 | 김민수 | Understanding and Improving Knowledge Distillation for Quantization-Aware Training of Large Transformer Encoders | | #12 | -
+11/29 | 김민수 | Understanding and Improving Knowledge Distillation for Quantization-Aware Training of Large Transformer Encoders | https://arxiv.org/abs/2211.11014 | #12 | -
 12/6 | 이제민 | PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization | arxiv.org/abs/2111.12293 | #4 | -
 12/13 | 박승철 | - | - | -
 12/20 | 박상수 | Reconfigurable arary for flexible GEMM accelerator | arxiv.org/abs/2101.04799 | #2 | -
