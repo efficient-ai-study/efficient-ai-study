@@ -1,0 +1,919 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674964399.671429",
+        "user": "U04M05UHX7U",
+        "text": "<@U04M05UHX7U> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674965369.667239",
+        "user": "U04M059CL67",
+        "text": "<@U04M059CL67> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674966634.321019",
+        "user": "U04M2NY6U2Y",
+        "text": "<@U04M2NY6U2Y> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968153.805079",
+        "user": "U04LTMFBF2A",
+        "text": "<@U04LTMFBF2A> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968202.231259",
+        "user": "U04LKPBTEVD",
+        "text": "<@U04LKPBTEVD> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968206.072479",
+        "user": "U04LKPBUQ23",
+        "text": "<@U04LKPBUQ23> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968207.437379",
+        "user": "U04LXBEEHMK",
+        "text": "<@U04LXBEEHMK> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968248.061119",
+        "user": "U04LTMGEMLN",
+        "text": "<@U04LTMGEMLN> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968354.007459",
+        "user": "U04LXBG8GAZ",
+        "text": "<@U04LXBG8GAZ> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968393.692469",
+        "user": "U04MQ0RCNGY",
+        "text": "<@U04MQ0RCNGY> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968404.824869",
+        "user": "U04M06CDVC3",
+        "text": "<@U04M06CDVC3> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968411.688979",
+        "user": "U04M06CM95H",
+        "text": "<@U04M06CM95H> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968532.891649",
+        "user": "U04M09VRR3L",
+        "text": "<@U04M09VRR3L> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968924.153859",
+        "user": "U04MCUU74TT",
+        "text": "<@U04MCUU74TT> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969148.301689",
+        "user": "U04LTMVAQ4W",
+        "text": "<@U04LTMVAQ4W> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969222.353369",
+        "user": "U04M2PXD15J",
+        "text": "<@U04M2PXD15J> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969224.823789",
+        "user": "U04MCUY6M33",
+        "text": "<@U04MCUY6M33> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969304.494469",
+        "user": "U04LTMXAU3Y",
+        "text": "<@U04LTMXAU3Y> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969807.697529",
+        "user": "U04MQ1B2BGQ",
+        "text": "<@U04MQ1B2BGQ> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674970234.572479",
+        "user": "U04M0AJF3U2",
+        "text": "<@U04M0AJF3U2> 님이 채널에 참여함"
+    },
+    {
+        "client_msg_id": "9dda69a4-f6bb-4b02-9348-08b6d1b5c002",
+        "type": "message",
+        "text": "가벼운 논문 리뷰 하나 남겨보겠습니다.\n최근 LLM 압축 연구를 무섭게 달리는 연구 그룹이 하나 있는데 IST Austria라는 곳입니다.\n여기서 Dan이라는 사람은 Neural Magic 소속이기도 한데요, 주로 image classification 모델이나 BERT의 극단적인 경량화+CPU Inference를 추구합니다.\n\n여기서 연달아 나온 페이퍼중 가장 최근 페이퍼가 SparseGPT입니다. LLM의 Post-training Pruning(?!!!)을 다루고 있습니다.\n제목: SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot\n링크: <https:\/\/arxiv.org\/abs\/2301.00774>",
+        "user": "U04M05UHX7U",
+        "ts": "1674974187.082859",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xk2s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "가벼운 논문 리뷰 하나 남겨보겠습니다.\n최근 LLM 압축 연구를 무섭게 달리는 연구 그룹이 하나 있는데 IST Austria라는 곳입니다.\n여기서 Dan이라는 사람은 Neural Magic 소속이기도 한데요, 주로 image classification 모델이나 BERT의 극단적인 경량화+CPU Inference를 추구합니다.\n\n여기서 연달아 나온 페이퍼중 가장 최근 페이퍼가 SparseGPT입니다. LLM의 Post-training Pruning(?!!!)을 다루고 있습니다.\n제목: SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot\n링크: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2301.00774"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "reply_count": 11,
+        "reply_users_count": 3,
+        "latest_reply": "1674996045.832319",
+        "reply_users": [
+            "U04M05UHX7U",
+            "U04LTMXAU3Y",
+            "U04M06CM95H"
+        ],
+        "replies": [
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974200.224609"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974262.522979"
+            },
+            {
+                "user": "U04LTMXAU3Y",
+                "ts": "1674974325.956869"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974332.951449"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974447.763049"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974483.394259"
+            },
+            {
+                "user": "U04LTMXAU3Y",
+                "ts": "1674974540.929309"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674974584.536529"
+            },
+            {
+                "user": "U04M06CM95H",
+                "ts": "1674990505.072459"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674995999.378529"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1674996045.832319"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1674996045.832319",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M2NY6U2Y",
+                    "U04MQ1B2BGQ",
+                    "U04M0811ZPD",
+                    "U04M059CL67",
+                    "U04LKU43D7Z",
+                    "U04M06CM95H",
+                    "U04LL5UHC5D",
+                    "U04LY25D7C5",
+                    "U04LL3W56F9",
+                    "U04M0Q6HTQA",
+                    "U04MQHDJ12L",
+                    "U04MQ3CJBS4",
+                    "U04M0CJUUCT",
+                    "U04LTMVAQ4W",
+                    "U04MR94VA68",
+                    "U04M091M3MZ"
+                ],
+                "count": 16
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F04LKRQ0Z71",
+                "created": 1674974197,
+                "timestamp": 1674974197,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U04M05UHX7U",
+                "user_team": "T04MCQMEXQ9",
+                "editable": false,
+                "size": 154920,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04LKRQ0Z71\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04LKRQ0Z71\/download\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_64.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_80.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_360.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360_w": 360,
+                "thumb_360_h": 139,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_480.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_480_w": 480,
+                "thumb_480_h": 185,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_160.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_720.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720_w": 720,
+                "thumb_720_h": 277,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_800.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_800_w": 800,
+                "thumb_800_h": 308,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_960.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_960_w": 960,
+                "thumb_960_h": 369,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LKRQ0Z71-faaba89b56\/image_1024.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 394,
+                "original_w": 1372,
+                "original_h": 528,
+                "thumb_tiny": "AwASADDSPXFIF9eaU4z1GaTPuPzoAXAFJ9aM+4\/Ojj1H50ABX0pRTckdCPxpwOe4\/CgAIHoKMD0FKaKAE2j0FJgegp1JQAAD0FLSCloA\/9k=",
+                "permalink": "https:\/\/effai.slack.com\/files\/U04M05UHX7U\/F04LKRQ0Z71\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T04MCQMEXQ9-F04LKRQ0Z71-4394287924",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U04M05UHX7U",
+        "display_as_bot": false,
+        "ts": "1674974200.224609",
+        "client_msg_id": "572cb529-ff76-4fdb-a851-14cfd8065040",
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "702d6c41-75e7-43a1-a7ce-0c96cc0728dc",
+        "type": "message",
+        "text": "대단한 Pruning 방법은 아닙니다. 이 저자들의 OBQ라는 전작을 읽어보시면 거의 비슷한 방법인데요. Incremental하게 압축의 범위를 넓혀가면서 MRE방식처럼 layer단위의 조정을 해주는게 핵심입니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1674974262.522979",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y0So",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "대단한 Pruning 방법은 아닙니다. 이 저자들의 OBQ라는 전작을 읽어보시면 거의 비슷한 방법인데요. Incremental하게 압축의 범위를 넓혀가면서 MRE방식처럼 layer단위의 조정을 해주는게 핵심입니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "6F8257F2-3AEB-4F5F-B70A-548F08ADC387",
+        "type": "message",
+        "text": "정말 기초적인 내용이라 죄송하지만, 하나 의문점이 있습니다. sparse한 형태를 만들게 되면 이를 다루기 위해 coo format같은 형태를 사용해 사용하는게 일반적 인가요? 제가 아직 배움이 짧아 질문 드립니다!",
+        "user": "U04LTMXAU3Y",
+        "ts": "1674974325.956869",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GbsyX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "정말"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "기초적인"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "내용이라"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "죄송하지만"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "text",
+                                "text": "하나"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "의문점이"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "있습니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". sparse"
+                            },
+                            {
+                                "type": "text",
+                                "text": "한"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "형태를"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "만들게"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "되면"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "이를"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "다루기"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "위해"
+                            },
+                            {
+                                "type": "text",
+                                "text": " coo format"
+                            },
+                            {
+                                "type": "text",
+                                "text": "같은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "형태를"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "사용해"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "사용하는게"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "일반적"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "인가요"
+                            },
+                            {
+                                "type": "text",
+                                "text": "? "
+                            },
+                            {
+                                "type": "text",
+                                "text": "제가"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "아직"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "배움이"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "짧아"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "질문"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "드립니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": "!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "b8525b98b5e0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4738038523344_b8525b98b5e00f8d392b_72.png",
+            "first_name": "이형준\/Nota",
+            "real_name": "이형준\/Nota AI",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "rhtm02",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "c7d52a44-d9f0-4e4a-9829-d256c8df5c92",
+        "type": "message",
+        "text": "Magnitude-based로 그냥 LLM을 짤라버리면 당연히 성능이 하락하겠죠. 여기서 제안하는 방법을 쓰면 50-60%까지 문제 없이 Pruning할수 있습니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1674974332.951449",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rq7Tr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Magnitude-based로 그냥 LLM을 짤라버리면 당연히 성능이 하락하겠죠. 여기서 제안하는 방법을 쓰면 50-60%까지 문제 없이 Pruning할수 있습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "4b33480b-116a-475d-b40d-a0c5e0d00abb",
+        "type": "message",
+        "text": "<@U04LTMXAU3Y> Fine-grained Pruning은 여러 이유로 가속이 되지 않는다는게 일반적입니다. COO Format같은걸 써도 마찬가지이구요. cusparse 연산같은걸 해보면 dense matrix 연산보다 훨씬 느리고 90% 이상 Pruning되어야 빨라지기도 합니다. 이 논문도 그래서 기본적인 이야기는 Fine-grained(Unstructured) Pruning 이야기를 하는데, 결국 2:4 sparsity로 가속하는 이야기로 넘어갑니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1674974447.763049",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ooUC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04LTMXAU3Y"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Fine-grained Pruning은 여러 이유로 가속이 되지 않는다는게 일반적입니다. COO Format같은걸 써도 마찬가지이구요. cusparse 연산같은걸 해보면 dense matrix 연산보다 훨씬 느리고 90% 이상 Pruning되어야 빨라지기도 합니다. 이 논문도 그래서 기본적인 이야기는 Fine-grained(Unstructured) Pruning 이야기를 하는데, 결국 2:4 sparsity로 가속하는 이야기로 넘어갑니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "c3a4cdef-a5ca-4f0e-8931-c3f49fc1a29a",
+        "type": "message",
+        "text": "혹시 Fine-grained Pruning의 가속에 대해 궁금하시면 저희 ICLR 페이퍼를 보실수도 있습니다. <https:\/\/openreview.net\/forum?id=Vs5NK44aP9P>",
+        "user": "U04M05UHX7U",
+        "ts": "1674974483.394259",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6z2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "혹시 Fine-grained Pruning의 가속에 대해 궁금하시면 저희 ICLR 페이퍼를 보실수도 있습니다. "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/openreview.net\/forum?id=Vs5NK44aP9P"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/openreview.net\/forum?id=Vs5NK44aP9P",
+                "thumb_url": "https:\/\/openreview.net\/images\/openreview_logo_512.png",
+                "thumb_width": 512,
+                "thumb_height": 512,
+                "service_icon": "https:\/\/openreview.net\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/openreview.net\/forum?id=Vs5NK44aP9P",
+                "fallback": "OpenReview: Encoding Weights of Irregular Sparsity for Fixed-to-Fixed Model...",
+                "text": "Even though fine-grained pruning techniques achieve a high compression ratio, conventional sparsity representations (such as CSR) associated with irregular sparsity degrade parallelism...",
+                "title": "Encoding Weights of Irregular Sparsity for Fixed-to-Fixed Model...",
+                "title_link": "https:\/\/openreview.net\/forum?id=Vs5NK44aP9P",
+                "service_name": "OpenReview"
+            }
+        ],
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTMXAU3Y",
+                    "U04MQ1B2BGQ",
+                    "U04M059CL67",
+                    "U04LL5UHC5D"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9455F671-68E0-4E58-8F41-371371B18B68",
+        "type": "message",
+        "text": "좋은 레퍼까지 주셔서 너무 감사합니다.",
+        "user": "U04LTMXAU3Y",
+        "ts": "1674974540.929309",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oLUUo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "좋은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "레퍼까지"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "주셔서"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "너무"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "감사합니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "b8525b98b5e0",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4738038523344_b8525b98b5e00f8d392b_72.png",
+            "first_name": "이형준\/Nota",
+            "real_name": "이형준\/Nota AI",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "rhtm02",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "ea276c33-93cf-4ff8-a820-210eb2c32b4f",
+        "type": "message",
+        "text": "요 저자들 요즘 논문들이 재미있습니다.\n\nOBQ라는 quantization 방법: <https:\/\/arxiv.org\/pdf\/2208.11580.pdf>\n이를 LLM에 적용한 논문: <https:\/\/arxiv.org\/pdf\/2210.17323.pdf>",
+        "user": "U04M05UHX7U",
+        "ts": "1674974584.536529",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "abq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "요 저자들 요즘 논문들이 재미있습니다.\n\nOBQ라는 quantization 방법: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/pdf\/2208.11580.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n이를 LLM에 적용한 논문: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/pdf\/2210.17323.pdf"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "bow",
+                "users": [
+                    "U04LTMXAU3Y",
+                    "U04M2NY6U2Y",
+                    "U04MQ1B2BGQ",
+                    "U04M091M3MZ"
+                ],
+                "count": 4
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

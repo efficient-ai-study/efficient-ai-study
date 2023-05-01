@@ -1,0 +1,77 @@
+[
+    {
+        "client_msg_id": "8236915b-4a8f-4aad-9d84-80ef8b6da2b6",
+        "type": "message",
+        "text": "다시보기 링크 입니다.\n\n<https:\/\/www.youtube.com\/watch?v=jyOqtw4ry2w>",
+        "user": "U04M2NY6U2Y",
+        "ts": "1680842921.099489",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mU5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "다시보기 링크 입니다.\n\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.youtube.com\/watch?v=jyOqtw4ry2w"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7026e9e9c4f8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699821662839_7026e9e9c4f8501ee814_72.png",
+            "first_name": "김민수\/한양대",
+            "real_name": "김민수\/한양대",
+            "display_name": "김민수\/한양대",
+            "team": "T04MCQMEXQ9",
+            "name": "minsoo2333",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.youtube.com\/watch?v=jyOqtw4ry2w",
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/youtube.png",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/jyOqtw4ry2w\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/jyOqtw4ry2w?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen title=\"8-bit Methods for Efficient Deep Learning with Tim Dettmers\"><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "id": 1,
+                "original_url": "https:\/\/www.youtube.com\/watch?v=jyOqtw4ry2w",
+                "fallback": "YouTube Video: 8-bit Methods for Efficient Deep Learning with Tim Dettmers",
+                "title": "8-bit Methods for Efficient Deep Learning with Tim Dettmers",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=jyOqtw4ry2w",
+                "author_name": "Cohere",
+                "author_link": "https:\/\/www.youtube.com\/@CohereAI",
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/"
+            }
+        ],
+        "thread_ts": "1679540808.803729",
+        "parent_user_id": "U04M2NY6U2Y",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04M1LKNQUB"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

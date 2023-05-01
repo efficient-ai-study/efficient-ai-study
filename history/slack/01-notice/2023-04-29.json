@@ -1,0 +1,228 @@
+[
+    {
+        "client_msg_id": "a73ac19f-25e2-4f85-882a-079a8d2428aa",
+        "type": "message",
+        "text": "안녕하세요, 2023 AI 경량화 Study 모집이 완료되었습니다.\n신청해주신 분들은 스터디 공지 채널에 이번 주말 중으로 순차적으로 초대 해 드릴 예정입니다.\n스터디 참여 방법 및 줌 링크 등이 공지 채널에 업로드될 예정이니 해당 채널 확인을 부탁드립니다.\n감사합니다.",
+        "user": "U04MQ6GUEPJ",
+        "ts": "1682767645.888739",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "w6N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요, 2023 AI 경량화 Study 모집이 완료되었습니다.\n신청해주신 분들은 스터디 공지 채널에 이번 주말 중으로 순차적으로 초대 해 드릴 예정입니다.\n스터디 참여 방법 및 줌 링크 등이 공지 채널에 업로드될 예정이니 해당 채널 확인을 부탁드립니다.\n감사합니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "e60bb2cbc117",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-29\/5182625196550_e60bb2cbc117b6a0a6b0_72.jpg",
+            "first_name": "김태수\/스퀴즈비츠",
+            "real_name": "김태수\/스퀴즈비츠",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "taesu.kim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682767645.888739",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1682788533.883769",
+        "reply_users": [
+            "U054A8G32HF",
+            "U04MQ6GUEPJ"
+        ],
+        "replies": [
+            {
+                "user": "U054A8G32HF",
+                "ts": "1682779671.071349"
+            },
+            {
+                "user": "U04MQ6GUEPJ",
+                "ts": "1682788533.883769"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04M05UHX7U",
+                    "U04M059CL67",
+                    "U04LKSJGVGX",
+                    "U04M2NY6U2Y",
+                    "U04LTT6NJ8N",
+                    "U04MQ1B2BGQ",
+                    "U04MQ2J38JC",
+                    "U0541HJAQP6",
+                    "U053XAVDJFQ",
+                    "U04M1RMCVQB",
+                    "U04M2QUG7NY",
+                    "U055E4348KY",
+                    "U055ZB16449",
+                    "U05565XLP55",
+                    "U04LL0F5RBR",
+                    "U055P6QS4GL",
+                    "U055ZB3MEL9"
+                ],
+                "count": 18
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6bea9813-6cdc-4e48-a7ed-6219f2a5556e",
+        "type": "message",
+        "text": "새로운 스터디가 시작되어 많은 분들이 가입하고 계셔서 다시 한번 공지 드립니다.\n\n- 이름은 이름\/소속으로 부탁드립니다.\n- 논문리뷰\/질문\/기술 센싱 자유롭게 남겨주세요.\n- 스터디 채널은 비공개로 되어 있습니다. 다른 공개채널들과 별개로 이뤄집니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1682768000.551869",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "chKl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "새로운 스터디가 시작되어 많은 분들이 가입하고 계셔서 다시 한번 공지 드립니다.\n\n- 이름은 이름\/소속으로 부탁드립니다.\n- 논문리뷰\/질문\/기술 센싱 자유롭게 남겨주세요.\n- 스터디 채널은 비공개로 되어 있습니다. 다른 공개채널들과 별개로 이뤄집니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U04MQ1B2BGQ",
+                    "U053XAVDJFQ",
+                    "U055HPK100M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "19142dee-82fe-4ee1-b0e8-9d893cf70f18",
+        "type": "message",
+        "text": "저 스터디 신청을 했는데 혹시 제가 멤버에서 누락되었나 걱정이 되네요ㅠㅠ 확인해주실수 있을까요?",
+        "user": "U054A8G32HF",
+        "ts": "1682779671.071349",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VWc1Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "저 스터디 신청을 했는데 혹시 제가 멤버에서 누락되었나 걱정이 되네요ㅠㅠ 확인해주실수 있을까요?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "9ca24ad4b784",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-19\/5157351159536_9ca24ad4b78414248c2f_72.png",
+            "first_name": "김형섭",
+            "real_name": "김형섭",
+            "display_name": "김형섭",
+            "team": "T04MCQMEXQ9",
+            "name": "times21c",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682767645.888739",
+        "parent_user_id": "U04MQ6GUEPJ"
+    },
+    {
+        "client_msg_id": "ddd151a4-d772-4830-8718-775d37cb5ee5",
+        "type": "message",
+        "text": "<@U054A8G32HF> 명단에 있으십니다! 아직 초대 준비중이니 잠시 기다려주시면 감사하겠습니다.",
+        "user": "U04MQ6GUEPJ",
+        "ts": "1682788533.883769",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JFKfW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U054A8G32HF"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 명단에 있으십니다! 아직 초대 준비중이니 잠시 기다려주시면 감사하겠습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "e60bb2cbc117",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-29\/5182625196550_e60bb2cbc117b6a0a6b0_72.jpg",
+            "first_name": "김태수\/스퀴즈비츠",
+            "real_name": "김태수\/스퀴즈비츠",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "taesu.kim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1682767645.888739",
+        "parent_user_id": "U04MQ6GUEPJ",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U054A8G32HF"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

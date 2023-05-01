@@ -1,0 +1,754 @@
+[
+    {
+        "client_msg_id": "faa7679a-1f57-4881-8b55-134867002c88",
+        "type": "message",
+        "text": "안녕하세요 주말이 거의 끝나가는데요~ Vision Transformer 에서 pruning 관련한 논문들 몇가지 공유드릴까합니다~\n\n1. [NeurIPS] DynamicViT\n(<https:\/\/proceedings.neurips.cc\/paper\/2021\/file\/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf>)\n\n2. [CVPR'22] A-ViT: Adaptive Tokens for Efficient Vision Transformer\n(<https:\/\/openaccess.thecvf.com\/content\/CVPR2022\/papers\/Yin_A-ViT_Adaptive_Tokens_for_Efficient_Vision_Transformer_CVPR_2022_paper.pdf>)\n\n3. [CVPR'22] AdaViT: Adaptive Vision Transformers for Efficient Image Recognition\n(<https:\/\/openaccess.thecvf.com\/content\/CVPR2022\/papers\/Meng_AdaViT_Adaptive_Vision_Transformers_for_Efficient_Image_Recognition_CVPR_2022_paper.pdf>)\n\n4. [ICLR'22] EViT:NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS\n(<https:\/\/arxiv.org\/pdf\/2202.07800.pdf>)\n\n5. [HPCA'23]HeatViT: Hardware-Efficient Adaptive Token Pruning for Vision Transformers (<https:\/\/arxiv.org\/pdf\/2211.08110.pdf>)\n\n6. [ECCV'22]Adaptive Token Sampling For Efficient Vision Transformers\n(<https:\/\/web.cs.ucdavis.edu\/~hpirsiav\/papers\/ats_eccv22.pdf>)",
+        "user": "U04LL3W56F9",
+        "ts": "1674992949.515369",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7yg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요 주말이 거의 끝나가는데요~ Vision Transformer 에서 pruning 관련한 논문들 몇가지 공유드릴까합니다~\n\n1. [NeurIPS] DynamicViT\n("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/proceedings.neurips.cc\/paper\/2021\/file\/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\n2. [CVPR'22] A-ViT: Adaptive Tokens for Efficient Vision Transformer\n("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/openaccess.thecvf.com\/content\/CVPR2022\/papers\/Yin_A-ViT_Adaptive_Tokens_for_Efficient_Vision_Transformer_CVPR_2022_paper.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\n3. [CVPR'22] AdaViT: Adaptive Vision Transformers for Efficient Image Recognition\n("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/openaccess.thecvf.com\/content\/CVPR2022\/papers\/Meng_AdaViT_Adaptive_Vision_Transformers_for_Efficient_Image_Recognition_CVPR_2022_paper.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\n4. [ICLR'22] EViT:NOT ALL PATCHES ARE WHAT YOU NEED: EXPEDITING VISION TRANSFORMERS VIA TOKEN REORGANIZATIONS\n("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/pdf\/2202.07800.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\n5. [HPCA'23]HeatViT: Hardware-Efficient Adaptive Token Pruning for Vision Transformers ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/pdf\/2211.08110.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")\n\n6. [ECCV'22]Adaptive Token Sampling For Efficient Vision Transformers\n("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/web.cs.ucdavis.edu\/~hpirsiav\/papers\/ats_eccv22.pdf"
+                            },
+                            {
+                                "type": "text",
+                                "text": ")"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "da9e9b936e49",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4727308105281_da9e9b936e4974fcbfe1_72.png",
+            "first_name": "이광한",
+            "real_name": "이광한",
+            "display_name": "이광한\/성균관대",
+            "team": "T04MCQMEXQ9",
+            "name": "ican0016",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04LL3W56F9",
+            "ts": "1674993148.000000"
+        },
+        "thread_ts": "1674992949.515369",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1674994078.738589",
+        "reply_users": [
+            "U04LL3W56F9"
+        ],
+        "replies": [
+            {
+                "user": "U04LL3W56F9",
+                "ts": "1674993185.796319"
+            },
+            {
+                "user": "U04LL3W56F9",
+                "ts": "1674994078.738589"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04MQ1B2BGQ",
+                    "U04MD0HNM4Z",
+                    "U04LTMXAU3Y",
+                    "U04LTPY7LES",
+                    "U04LL3W56F9",
+                    "U04M31F24CU",
+                    "U04MQ2J38JC",
+                    "U04LKSJGVGX",
+                    "U04M2NY6U2Y",
+                    "U04M05UHX7U",
+                    "U04LTPT340N",
+                    "U04LTT6NJ8N",
+                    "U04LL25TRDM",
+                    "U04M348MYJG",
+                    "U04LV2JHHB8",
+                    "U04LV1TC17Y",
+                    "U04LKPBUQ23",
+                    "U04M09VRR3L",
+                    "U04M3UUAZTN",
+                    "U04M2QUG7NY",
+                    "U04M059CL67",
+                    "U04MADK8SF4",
+                    "U04LTMVAQ4W",
+                    "U04NQP19QJ0",
+                    "U04M51TDQR0",
+                    "U04M091M3MZ"
+                ],
+                "count": 26
+            },
+            {
+                "name": "smiley",
+                "users": [
+                    "U04MADK8SF4"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "",
+        "files": [
+            {
+                "id": "F04MD9UQEBT",
+                "created": 1674993181,
+                "timestamp": 1674993181,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U04LL3W56F9",
+                "user_team": "T04MCQMEXQ9",
+                "editable": false,
+                "size": 998565,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04MD9UQEBT\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04MD9UQEBT\/download\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_64.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_80.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_360.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360_w": 360,
+                "thumb_360_h": 195,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_480.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_480_w": 480,
+                "thumb_480_h": 261,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_160.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_720.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720_w": 720,
+                "thumb_720_h": 391,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_800.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_800_w": 800,
+                "thumb_800_h": 434,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_960.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_960_w": 960,
+                "thumb_960_h": 521,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MD9UQEBT-8dc565b68b\/image_1024.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 556,
+                "original_w": 1824,
+                "original_h": 990,
+                "thumb_tiny": "AwAaADCWWWYTsFzjPFVzPdCM\/vH7dulWJXPnsN6Yzggg1VITyyMx44IGTQANc3I2\/vW6ddtTmWYAnzG79qquik8shODnk\/4VKYk8tgCn13H\/AApAOaacAATScnj5KRbmYzKDK+MjjZUTLwDmIFTjqcfyoUATKd0fzEZ5Of5UAWrjyhcE7nyT2HGaq46j5i3HOf61ekRDKxKrnJ7VEIo8H5F\/KmBSONmcNjv8w5qySAuMNz71IYo8D92v5VPsTyn+RenpQBnsOPunJPPzf\/WpEX96nynhhzuq88aeVH8i\/lTFjTzU+Re3agD\/2Q==",
+                "permalink": "https:\/\/effai.slack.com\/files\/U04LL3W56F9\/F04MD9UQEBT\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T04MCQMEXQ9-F04MD9UQEBT-a608533303",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U04LL3W56F9",
+        "display_as_bot": false,
+        "ts": "1674993185.796319",
+        "client_msg_id": "6d044d9f-90ba-4a66-b4a2-3936efc22b58",
+        "thread_ts": "1674992949.515369",
+        "parent_user_id": "U04LL3W56F9"
+    },
+    {
+        "client_msg_id": "2aaa5a5d-1c39-46fb-98c4-fd9b102d7e32",
+        "type": "message",
+        "text": "위의 논문들 외에도 굉장히 많은데 몇가지만 추려봤습니다:smiley:\n\n최근 대부분의 ViT pruning 논문들은 token pruning에 주로 집중하고 pruning 위해서는 gumbel-softmax trick을 주로 사용합니다.\n\n* 어느정도 경량화가능??\n모델이나 데이터셋에 따라서 달라지긴 하는데, 제가 실험했을때도 그렇고 논문 몇개들을 살펴보면 이미지넷 데이터셋에서 모델의 연산량을 5~60%정도 줄였을때가 모델을 width 방향으로 스케일링했을 때 보다 성능이 높게 유지됐습니다.\n\n* 속도측면\n이미지마다 pruning되는 위치가 달라지기 때문에 input activation마다 추가적으로 처리해야하는 오버헤드가 존재합니다. 파이썬 레벨에서 나이브하게 텐서를 슬라이싱해서 처리했을 경우에 cpu에서는 (1thread로 비교) 속도가 빨라지는데 gpu에서는 물론 더 느립니다 ^^ ㅜㅜ (빨라지게 할 수 있을텐데 제 능력부족으로..)\n\n* head, layer, token pruning\ntoken 단위로 redundancy를 줄이는 것뿐만아니라 head나 layer (attention, ffn) 단위로도 pruning 하는 연구도 존재합니다. 근데, gpu에서 실제 가속이 가능할지는 모르겠네요..\n\n시간나면 논문 한개정도 자세히 리뷰해보겠습니다:grin: 남은 주말 모두 잘보내세요",
+        "user": "U04LL3W56F9",
+        "ts": "1674994078.738589",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OxI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "위의 논문들 외에도 굉장히 많은데 몇가지만 추려봤습니다"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "smiley",
+                                "unicode": "1f603"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n최근 대부분의 ViT pruning 논문들은 token pruning에 주로 집중하고 pruning 위해서는 gumbel-softmax trick을 주로 사용합니다.\n\n* 어느정도 경량화가능??\n모델이나 데이터셋에 따라서 달라지긴 하는데, 제가 실험했을때도 그렇고 논문 몇개들을 살펴보면 이미지넷 데이터셋에서 모델의 연산량을 5~60%정도 줄였을때가 모델을 width 방향으로 스케일링했을 때 보다 성능이 높게 유지됐습니다.\n\n* 속도측면\n이미지마다 pruning되는 위치가 달라지기 때문에 input activation마다 추가적으로 처리해야하는 오버헤드가 존재합니다. 파이썬 레벨에서 나이브하게 텐서를 슬라이싱해서 처리했을 경우에 cpu에서는 (1thread로 비교) 속도가 빨라지는데 gpu에서는 물론 더 느립니다 ^^ ㅜㅜ (빨라지게 할 수 있을텐데 제 능력부족으로..)\n\n* head, layer, token pruning\ntoken 단위로 redundancy를 줄이는 것뿐만아니라 head나 layer (attention, ffn) 단위로도 pruning 하는 연구도 존재합니다. 근데, gpu에서 실제 가속이 가능할지는 모르겠네요..\n\n시간나면 논문 한개정도 자세히 리뷰해보겠습니다"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "grin",
+                                "unicode": "1f601"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 남은 주말 모두 잘보내세요"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "da9e9b936e49",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4727308105281_da9e9b936e4974fcbfe1_72.png",
+            "first_name": "이광한",
+            "real_name": "이광한",
+            "display_name": "이광한\/성균관대",
+            "team": "T04MCQMEXQ9",
+            "name": "ican0016",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04LL3W56F9",
+            "ts": "1674994230.000000"
+        },
+        "thread_ts": "1674992949.515369",
+        "parent_user_id": "U04LL3W56F9",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LL5UHC5D",
+                    "U04M0811ZPD",
+                    "U04LY25D7C5",
+                    "U04LKU43D7Z",
+                    "U04M05UHX7U",
+                    "U04M3UUAZTN",
+                    "U04MADK8SF4"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "client_msg_id": "31e442a8-3940-4af9-a640-232d3a621691",
+        "type": "message",
+        "text": "흥미로운 논문이 있어서 보고 있습니다.\n• 제목: Can We Find Strong Lottery Tickets in Generative Models?\n• Link : <https:\/\/arxiv.org\/abs\/2212.08311>\n‘What’s Hidden in a Randomly Weighted Neural Network?’ (2019) 논문에서 다뤄진적 있는 Random Network에 대한 Pruning을 통해서 Full-precision network를 찾을 수 있다는 내용을 GAN에 적용한 paper입니다. 이때 mask되지 않은 weight이 strong lottery ticket에 해당됩니다. (쓰레드에서 계속)",
+        "user": "U04M05UHX7U",
+        "ts": "1675062351.979489",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y3m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "흥미로운 논문이 있어서 보고 있습니다.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "제목: Can We Find Strong Lottery Tickets in Generative Models?"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Link : "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2212.08311"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n‘What’s Hidden in a Randomly Weighted Neural Network?’ (2019) 논문에서 다뤄진적 있는 Random Network에 대한 Pruning을 통해서 Full-precision network를 찾을 수 있다는 내용을 GAN에 적용한 paper입니다. 이때 mask되지 않은 weight이 strong lottery ticket에 해당됩니다. (쓰레드에서 계속)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "edited": {
+            "user": "U04M05UHX7U",
+            "ts": "1675063047.000000"
+        },
+        "thread_ts": "1675062351.979489",
+        "reply_count": 9,
+        "reply_users_count": 3,
+        "latest_reply": "1675068604.734459",
+        "reply_users": [
+            "U04M05UHX7U",
+            "U04LL3W56F9",
+            "U04M2QUG7NY"
+        ],
+        "replies": [
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675062409.134089"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675062485.735919"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675062534.366779"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675064588.311939"
+            },
+            {
+                "user": "U04LL3W56F9",
+                "ts": "1675066965.932479"
+            },
+            {
+                "user": "U04M2QUG7NY",
+                "ts": "1675067222.410549"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675067261.799429"
+            },
+            {
+                "user": "U04LL3W56F9",
+                "ts": "1675068110.712779"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1675068604.734459"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1675068604.734459",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M09VRR3L",
+                    "U04LKSJGVGX",
+                    "U04M091M3MZ",
+                    "U04M2NY6U2Y",
+                    "U04MD4D7CBT",
+                    "U04LL3W56F9",
+                    "U04MQ2J38JC",
+                    "U04LL5UHC5D",
+                    "U04M0DPAW74",
+                    "U04MR94VA68",
+                    "U04LKU43D7Z",
+                    "U04MQ1B2BGQ"
+                ],
+                "count": 12
+            },
+            {
+                "name": "eyes",
+                "users": [
+                    "U04MQ1B2BGQ",
+                    "U04M0CV8DHR",
+                    "U04MD0HNM4Z",
+                    "U04MQHDJ12L",
+                    "U04LKPBUQ23"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "text": "논문의 그림을 보면 조금 헷갈리는데.. Portion of remaining weight이 100%에서부터 10%로 낮아지면서 점차 FID가 좋아지면서 결과가 좋아집니다.",
+        "files": [
+            {
+                "id": "F04MF41RMPB",
+                "created": 1675062355,
+                "timestamp": 1675062355,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U04M05UHX7U",
+                "user_team": "T04MCQMEXQ9",
+                "editable": false,
+                "size": 276884,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04MF41RMPB\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04MF41RMPB\/download\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_64.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_80.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_360.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360_w": 360,
+                "thumb_360_h": 227,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_480.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_480_w": 480,
+                "thumb_480_h": 303,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_160.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_720.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720_w": 720,
+                "thumb_720_h": 454,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_800.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_800_w": 800,
+                "thumb_800_h": 504,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_960.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_960_w": 960,
+                "thumb_960_h": 605,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04MF41RMPB-d35c3355ab\/image_1024.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 645,
+                "original_w": 1520,
+                "original_h": 958,
+                "thumb_tiny": "AwAeADDSJx+NG4e\/5UZ5PTA60bVbsDQAtFRkxh9uOTT8BQcDFAEaykuy7RwM8GpaQcnOMCloAZIgZGGSC3cUyFPLB53A81NSEHORj8aAG4yc4H40vfJIow3X5c0YbOfloAdketRJGBIXzz9afhs5+XNLgZz3oA\/\/2Q==",
+                "permalink": "https:\/\/effai.slack.com\/files\/U04M05UHX7U\/F04MF41RMPB\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T04MCQMEXQ9-F04MF41RMPB-96872d7c80",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U04M05UHX7U",
+        "display_as_bot": false,
+        "ts": "1675062409.134089",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3a30",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "논문의 그림을 보면 조금 헷갈리는데.. Portion of remaining weight이 100%에서부터 10%로 낮아지면서 점차 FID가 좋아지면서 결과가 좋아집니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "a0ea5f10-eb72-465d-86f1-ba4271b754c5",
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "type": "message",
+        "text": "방법론적으로는 다음 그림과 같은데.. 2019년 What’s hidden… 논문의 방식에 MMD score라는 것을 더해서 STE를 통해 mask의 score를 업데이트 하는 방식인것 같습니다. Pruning + Training이 아니고, 그저 Pruning score만 업데이트합니다,",
+        "files": [
+            {
+                "id": "F04M4UKH884",
+                "created": 1675062436,
+                "timestamp": 1675062436,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U04M05UHX7U",
+                "user_team": "T04MCQMEXQ9",
+                "editable": false,
+                "size": 490309,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04M4UKH884\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04M4UKH884\/download\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_64.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_80.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_360.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360_w": 360,
+                "thumb_360_h": 125,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_480.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_480_w": 480,
+                "thumb_480_h": 167,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_160.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_720.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720_w": 720,
+                "thumb_720_h": 250,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_800.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_800_w": 800,
+                "thumb_800_h": 278,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_960.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_960_w": 960,
+                "thumb_960_h": 333,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04M4UKH884-6b7a384821\/image_1024.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 356,
+                "original_w": 3132,
+                "original_h": 1088,
+                "thumb_tiny": "AwAQADDSLBQSTwKQMGxjpzSE9flJoBI6KaAFDAtgE013CgEkjOaAe+w5o9PlPFADtw25BJpQ2Tj2zTd3GCpNKM\/3cUAf\/9k=",
+                "permalink": "https:\/\/effai.slack.com\/files\/U04M05UHX7U\/F04M4UKH884\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T04MCQMEXQ9-F04M4UKH884-a589f484c1",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U04M05UHX7U",
+        "display_as_bot": false,
+        "ts": "1675062485.735919",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7\/\/fi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "방법론적으로는 다음 그림과 같은데.. 2019년 What’s hidden… 논문의 방식에 MMD score라는 것을 더해서 STE를 통해 mask의 score를 업데이트 하는 방식인것 같습니다. Pruning + Training이 아니고, 그저 Pruning score만 업데이트합니다,"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "edited": {
+            "user": "U04M05UHX7U",
+            "ts": "1675063773.000000"
+        },
+        "client_msg_id": "66a1c9f5-511b-4859-983c-fdbd050ababf",
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "type": "message",
+        "text": "결과적으로 10%의 parameter만 가지고도 충분히 좋은 GAN generator를 만들수 있다는 내용이구요.  다만, Diffusion model의 diversity가 중요시되는 시대에 FID로만 평가되는 생성모델의 Pruning이 얼마나 가치 있는 연구인지 좀 헷갈립니다.",
+        "files": [
+            {
+                "id": "F04LMUHRK8F",
+                "created": 1675062497,
+                "timestamp": 1675062497,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U04M05UHX7U",
+                "user_team": "T04MCQMEXQ9",
+                "editable": false,
+                "size": 1842299,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": true,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04LMUHRK8F\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T04MCQMEXQ9-F04LMUHRK8F\/download\/image.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_64.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_80.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_360.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_360_w": 320,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_480.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_480_w": 426,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_160.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_720.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_720_w": 640,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_800.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_800_w": 800,
+                "thumb_800_h": 901,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_960.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_960_w": 853,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T04MCQMEXQ9-F04LMUHRK8F-88ac16618c\/image_1024.png?t=xoxe-4726837507825-4848681849303-4856614048758-e0b1f3d4cb371f92260edb0d9444d206",
+                "thumb_1024_w": 910,
+                "thumb_1024_h": 1024,
+                "original_w": 1512,
+                "original_h": 1702,
+                "thumb_tiny": "AwAwACq5eOyW7MpIPqKoLcvjHnP3OSau3yl4CFPPB\/WqUaF5mcBR\/Dg0hljzpGmDCT5Cv3R9P55qDz2LD99IAcZycYqeKJo4gD2HGPWq+OUJRQFNAEy3LBfvkhfxzz0rQHSsw7hvAKYYgjnFaS\/dH0oQMgvAvlfMB+JxVXdtUptUg9ge1X2YbthFR5XJwpOPpTEVEc4xux2wKYOFVh09S1Xxgfwn3GRR8v8AdJA+lAFBnVnIYNg9Ru61qLwox0xUPy9dp\/SpA\/H3T+lADX+\/n0pv1p7qS3Q4pu0+h\/KgA56UdOlG091\/Sjaf7p\/KkAc5yetPAGBTNh7D8akC8DgUwP\/Z",
+                "permalink": "https:\/\/effai.slack.com\/files\/U04M05UHX7U\/F04LMUHRK8F\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T04MCQMEXQ9-F04LMUHRK8F-95a1fde1e4",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U04M05UHX7U",
+        "display_as_bot": false,
+        "ts": "1675062534.366779",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sie1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "결과적으로 10%의 parameter만 가지고도 충분히 좋은 GAN generator를 만들수 있다는 내용이구요.  다만, Diffusion model의 diversity가 중요시되는 시대에 FID로만 평가되는 생성모델의 Pruning이 얼마나 가치 있는 연구인지 좀 헷갈립니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "client_msg_id": "7c48b721-f75c-45b5-b326-8dafdd6148e0",
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "fe4a75f8-5ec6-47ad-87df-8a2122f0cc10",
+        "type": "message",
+        "text": "참고: <https:\/\/www.facebook.com\/groups\/255834461424286\/user\/100001999789386>",
+        "user": "U04M05UHX7U",
+        "ts": "1675064588.311939",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BB6W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "참고: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.facebook.com\/groups\/255834461424286\/user\/100001999789386"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    }
+]

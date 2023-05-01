@@ -1,0 +1,258 @@
+[
+    {
+        "client_msg_id": "f2e9406c-4caf-4535-aaa0-a07f0024ef6b",
+        "type": "message",
+        "text": "ViT에서 매 층마다 token을 계속 합쳐가는 (pruing X, merging O) 방식으로 연산을 줄이는 논문입니다.\n<https:\/\/openreview.net\/forum?id=JroZRaRw7Eu|Token Merging: Your ViT But Faster> (ICLR 2023)\n• 핵심 아이디어: Self-attention 이후, \"Key\" 들의 similarity를 기준으로 token들을 합칩니다.\n    ◦ 매 층마다 8개씩 합치고, 24층이 지나고 나면 196개 중 192개 token이 사라집니다.\n    ◦ 홀수 번째와 짝수 번째 token 그룹을 나누고 두 그룹 사이에서 1-step bipartite matching으로 합쳐질 쌍들을 결정합니다.\n    ◦ 추가적인 fine-tuning을 굳이 안 해도 큰 성능 하락이 없다고 합니다 (해주면 더 좋음).\n• 좋은 점\n    ◦ 아주 단순한 알고리즘인데, image classification에서 throughput이 3x 까지 올라간다고 합니다 (GPU).\n    ◦ ICLR에서 6, 8, 8, 10 이라는 상당히 높은 점수를 받았고, 아이디어도 깔끔하고 논문도 깔끔하고 결과도 좋습니다.\n    ◦ 합치는 방법은 단순한 averaging입니다. Matching 포함 합치는 데 걸리는 시간은 거의 무시할 만 합니다.\n• 의견\n    ◦ 다양한 방식으로 effective token 수를 줄이는 연구들이 최근 쏟아지는 것 같습니다. Image classification 한정으로는 NLP보다 더 locality가 있어서 그런지 압축률이 상당히 높은 것 같습니다.\n    ◦ 합쳐진 token group을 보면 어느 정도 semantic information과 일치하는 것 같아서, 이 합치는 방식 자체가 segmentation, detection 등으로 쉽게 확장될 것 같다는 생각이 있습니다. 사실 이와 같이 DINO에 들어 있는 token들을 합치는 연구들은 계속 있긴 했습니다 (<https:\/\/arxiv.org\/abs\/2109.14279|LOST>, <https:\/\/arxiv.org\/abs\/2209.00383|TokenCut>). 특히 LOST에서도 key를 사용해 token similarity를 계산하는데, 확실히 key만이 가지는 특징이 있나 봅니다.\n    ◦ 개인적으로는 large-scale ViT 시대에도 (<https:\/\/arxiv.org\/abs\/2302.05442|ViT-22B>) 이미지의 특성상 여전히 잘 통하는 방법이 되지 않을까 기대가 됩니다.",
+        "user": "U04MQ2J38JC",
+        "ts": "1678523422.208839",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PwtSZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ViT에서 매 층마다 token을 계속 합쳐가는 (pruing X, merging O) 방식으로 연산을 줄이는 논문입니다.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/openreview.net\/forum?id=JroZRaRw7Eu",
+                                "text": "Token Merging: Your ViT But Faster"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (ICLR 2023)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "핵심 아이디어: Self-attention 이후, \"Key\" 들의 similarity를 기준으로 token들을 합칩니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "매 층마다 8개씩 합치고, 24층이 지나고 나면 196개 중 192개 token이 사라집니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "홀수 번째와 짝수 번째 token 그룹을 나누고 두 그룹 사이에서 1-step bipartite matching으로 합쳐질 쌍들을 결정합니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "추가적인 fine-tuning을 굳이 안 해도 큰 성능 하락이 없다고 합니다 (해주면 더 좋음)."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "좋은 점"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "아주 단순한 알고리즘인데, image classification에서 throughput이 3x 까지 올라간다고 합니다 (GPU)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "ICLR에서 6, 8, 8, 10 이라는 상당히 높은 점수를 받았고, 아이디어도 깔끔하고 논문도 깔끔하고 결과도 좋습니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "합치는 방법은 단순한 averaging입니다. Matching 포함 합치는 데 걸리는 시간은 거의 무시할 만 합니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "의견"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "다양한 방식으로 effective token 수를 줄이는 연구들이 최근 쏟아지는 것 같습니다. Image classification 한정으로는 NLP보다 더 locality가 있어서 그런지 압축률이 상당히 높은 것 같습니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "합쳐진 token group을 보면 어느 정도 semantic information과 일치하는 것 같아서, 이 합치는 방식 자체가 segmentation, detection 등으로 쉽게 확장될 것 같다는 생각이 있습니다. 사실 이와 같이 DINO에 들어 있는 token들을 합치는 연구들은 계속 있긴 했습니다 ("
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2109.14279",
+                                        "text": "LOST"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ", "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2209.00383",
+                                        "text": "TokenCut"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "). 특히 LOST에서도 key를 사용해 token similarity를 계산하는데, 확실히 key만이 가지는 특징이 있나 봅니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "개인적으로는 large-scale ViT 시대에도 ("
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2302.05442",
+                                        "text": "ViT-22B"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ") 이미지의 특성상 여전히 잘 통하는 방법이 되지 않을까 기대가 됩니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "3e494054f705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4714393981186_3e494054f7050068883f_72.png",
+            "first_name": "심규홍\/퀄컴",
+            "real_name": "심규홍\/퀄컴",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "khshim20",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04LKU43D7Z",
+                    "U04M05UHX7U",
+                    "U04MQ1B2BGQ",
+                    "U04M059CL67",
+                    "U04M2NY6U2Y",
+                    "U04LXBEEHMK",
+                    "U04M09VRR3L",
+                    "U04LYGJ3945",
+                    "U04MADK8SF4",
+                    "U04LXKFJLFP",
+                    "U04MR94VA68",
+                    "U04LTMVAQ4W",
+                    "U04M31F24CU",
+                    "U04LU2NN8TY",
+                    "U04LL3W56F9",
+                    "U04M3UUAZTN",
+                    "U04M51TDQR0"
+                ],
+                "count": 18
+            }
+        ]
+    }
+]

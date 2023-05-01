@@ -1,0 +1,67 @@
+[
+    {
+        "client_msg_id": "8bbcba9b-fe3b-4e0e-b74c-83cd6f4b4eb6",
+        "type": "message",
+        "text": "이제 백업을 시작해야할텐데요 (슬랙 무료판은 90일 넘어가면 삭제됩니다.) 2달마다 한번씩 github으로 올리는 형태가 될것 같습니다. json으로 되어 있으니 누구나 검색하실수 있을겁니다. 1\/2월 자료 백업은 했고, 올리고 나면 말씀드릴게요.",
+        "user": "U04M05UHX7U",
+        "ts": "1678095884.355879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TDy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "이제 백업을 시작해야할텐데요 (슬랙 무료판은 90일 넘어가면 삭제됩니다.) 2달마다 한번씩 github으로 올리는 형태가 될것 같습니다. json으로 되어 있으니 누구나 검색하실수 있을겁니다. 1\/2월 자료 백업은 했고, 올리고 나면 말씀드릴게요."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTMVAQ4W",
+                    "U04M2NY6U2Y",
+                    "U04M0CJUUCT",
+                    "U04MQHDJ12L",
+                    "U04MQ2J38JC",
+                    "U04MQ1B2BGQ",
+                    "U04M06CDVC3",
+                    "U04M31F24CU",
+                    "U04LYGJ3945",
+                    "U04MR94VA68",
+                    "U04MCA1D8G5",
+                    "U04LKU43D7Z",
+                    "U04M1LKNQUB",
+                    "U04LV2JHHB8",
+                    "U04M0Q6HTQA",
+                    "U04LL0F5RBR",
+                    "U04M0B0PWMQ",
+                    "U04MMGPP1A5",
+                    "U04M091M3MZ"
+                ],
+                "count": 19
+            }
+        ]
+    }
+]

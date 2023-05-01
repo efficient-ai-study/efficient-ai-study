@@ -1,0 +1,734 @@
+[
+    {
+        "client_msg_id": "4E2CB9EC-35CA-4B6D-848F-E964D86BF9FF",
+        "type": "message",
+        "text": "안녕하세요, \n혹시 I-BERT의 I-EXP의 approximation 방법론과 비슷한 유형으로  Layernorm, softmax등의 트랜스포머 오퍼레이션의 경량화를 한 논문을 추천해주실 수 있으실까요? \n감사합니다 :hugging_face:.",
+        "user": "U04M091M3MZ",
+        "ts": "1677042670.445469",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z37Ej",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "혹시"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I-BERT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "의"
+                            },
+                            {
+                                "type": "text",
+                                "text": " I-EXP"
+                            },
+                            {
+                                "type": "text",
+                                "text": "의"
+                            },
+                            {
+                                "type": "text",
+                                "text": " approximation "
+                            },
+                            {
+                                "type": "text",
+                                "text": "방법론과"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "비슷한"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "유형으로"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  Layernorm, softmax"
+                            },
+                            {
+                                "type": "text",
+                                "text": "등의"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "트랜스포머"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "오퍼레이션의"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "경량화를"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "한"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "논문을"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "추천해주실"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "수"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "있으실까요"
+                            },
+                            {
+                                "type": "text",
+                                "text": "? \n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "감사합니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "hugging_face",
+                                "unicode": "1f917"
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7db5f8f30815",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4707823773350_7db5f8f30815f749cb56_72.png",
+            "first_name": "신종훈\/딥엑스",
+            "real_name": "신종훈\/딥엑스",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "jh.michael.shin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677042670.445469",
+        "reply_count": 5,
+        "reply_users_count": 4,
+        "latest_reply": "1677044691.877119",
+        "reply_users": [
+            "U04NQP19QJ0",
+            "U04M091M3MZ",
+            "U04M2NY6U2Y",
+            "U04LKU43D7Z"
+        ],
+        "replies": [
+            {
+                "user": "U04NQP19QJ0",
+                "ts": "1677042949.447999"
+            },
+            {
+                "user": "U04M091M3MZ",
+                "ts": "1677043907.832719"
+            },
+            {
+                "user": "U04M2NY6U2Y",
+                "ts": "1677044272.733149"
+            },
+            {
+                "user": "U04M091M3MZ",
+                "ts": "1677044458.556479"
+            },
+            {
+                "user": "U04LKU43D7Z",
+                "ts": "1677044691.877119"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M059CL67",
+                    "U04M05UHX7U",
+                    "U04M1LKNQUB"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f0e781fb-51f7-4ce4-9a91-d597d23f8a13",
+        "type": "message",
+        "text": "안녕하세요.\n제가 알기로는 FQ-Vit (<https:\/\/arxiv.org\/abs\/2111.13824>) 이라는 논문이 LayerNorm과 Softmax 연산 자체 경량화를 타겟으로 한것으로 알고 있습니다.\n살펴보신다면 도움이 될 것 같습니다. 감사합니다:slightly_smiling_face:",
+        "user": "U04NQP19QJ0",
+        "ts": "1677042949.447999",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rk1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요.\n제가 알기로는 FQ-Vit ("
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2111.13824"
+                            },
+                            {
+                                "type": "text",
+                                "text": ") 이라는 논문이 LayerNorm과 Softmax 연산 자체 경량화를 타겟으로 한것으로 알고 있습니다.\n살펴보신다면 도움이 될 것 같습니다. 감사합니다"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face",
+                                "unicode": "1f642"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "e46ea6e5b831",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-02-08\/4755779498583_e46ea6e5b831393108e2_72.png",
+            "first_name": "김도형(일반대학원",
+            "real_name": "김도형(일반대학원 전기전자공학과)",
+            "display_name": "김도형(일반대학원 전기전자공학과)",
+            "team": "T04MCQMEXQ9",
+            "name": "do.hyung",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2111.13824",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2111.13824",
+                "fallback": "arXiv.org: FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+                "text": "Network quantization significantly reduces model inference complexity and has\nbeen widely used in real-world deployments. However, most existing quantization\nmethods have been developed mainly on Convolutional Neural Networks (CNNs), and\nsuffer severe degradation when applied to fully quantized vision transformers.\nIn this work, we demonstrate that many of these difficulties arise because of\nserious inter-channel variation in LayerNorm inputs, and present, Power-of-Two\nFactor (PTF), a systematic method to reduce the performance degradation and\ninference complexity of fully quantized vision transformers. In addition,\nobserving an extreme non-uniform distribution in attention maps, we propose\nLog-Int-Softmax (LIS) to sustain that and simplify inference by using 4-bit\nquantization and the BitShift operator. Comprehensive experiments on various\ntransformer-based architectures and benchmarks show that our Fully Quantized\nVision Transformer (FQ-ViT) outperforms previous works while even using lower\nbit-width on attention maps. For instance, we reach 84.89% top-1 accuracy with\nViT-L on ImageNet and 50.8 mAP with Cascade Mask R-CNN (Swin-S) on COCO. To our\nknowledge, we are the first to achieve lossless accuracy degradation (~1%) on\nfully quantized vision transformers. The code is available at\n<https:\/\/github.com\/megvii-research\/FQ-ViT>.",
+                "title": "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer",
+                "title_link": "https:\/\/arxiv.org\/abs\/2111.13824",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "thread_ts": "1677042670.445469",
+        "parent_user_id": "U04M091M3MZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "F8804428-3B2D-4E71-BB62-5EF681C976D7",
+        "type": "message",
+        "text": "댓글 감사합니다! FQ-VIT도 스터디때 보고 추가로 NVIDIA의 Softermax와 두 논문 정도만 추가로 재밌게 읽어보았습니다 ㅎㅎ\n혹여 다른 논문도 아시면 알려주시면 감사하겠습니다 ㅎ",
+        "user": "U04M091M3MZ",
+        "ts": "1677043907.832719",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9V=+4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "댓글"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "감사합니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": "! FQ-VIT"
+                            },
+                            {
+                                "type": "text",
+                                "text": "도"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "스터디때"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "보고"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "추가로"
+                            },
+                            {
+                                "type": "text",
+                                "text": " NVIDIA"
+                            },
+                            {
+                                "type": "text",
+                                "text": "의"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Softermax"
+                            },
+                            {
+                                "type": "text",
+                                "text": "와"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "두"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "논문"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "정도만"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "추가로"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "재밌게"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "읽어보았습니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅎㅎ\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "혹여"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "다른"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "논문도"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "아시면"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "알려주시면"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "감사하겠습니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅎ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7db5f8f30815",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4707823773350_7db5f8f30815f749cb56_72.png",
+            "first_name": "신종훈\/딥엑스",
+            "real_name": "신종훈\/딥엑스",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "jh.michael.shin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677042670.445469",
+        "parent_user_id": "U04M091M3MZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04NQP19QJ0"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "29f78d68-c95d-4fbf-b325-46ba43c4aea6",
+        "type": "message",
+        "text": "<https:\/\/arxiv.org\/abs\/2112.02191>\n\napproximation 방법론으로 LUT 를 이용해 Transformer 의 Non-Linear Operation 연산을 근사하여 Inference 최적화한 논문도 있습니다.\n(구체적으로는 Non-Linear 함수의 연산이 Fitting 된 간단한 Neural Network 를 LUT 로 Equivalent 하게 바꾸어 Transformer Inference 에 Non-Linear Function 부분에 끼워넣어 연산 최적화를 시킨 방법입니다.) 참고가 되신다면 좋겠습니다.",
+        "user": "U04M2NY6U2Y",
+        "ts": "1677044272.733149",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9C4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2112.02191"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\napproximation 방법론으로 LUT 를 이용해 Transformer 의 Non-Linear Operation 연산을 근사하여 Inference 최적화한 논문도 있습니다.\n(구체적으로는 Non-Linear 함수의 연산이 Fitting 된 간단한 Neural Network 를 LUT 로 Equivalent 하게 바꾸어 Transformer Inference 에 Non-Linear Function 부분에 끼워넣어 연산 최적화를 시킨 방법입니다.) 참고가 되신다면 좋겠습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7026e9e9c4f8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699821662839_7026e9e9c4f8501ee814_72.png",
+            "first_name": "김민수\/한양대",
+            "real_name": "김민수\/한양대",
+            "display_name": "김민수\/한양대",
+            "team": "T04MCQMEXQ9",
+            "name": "minsoo2333",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2112.02191",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/favicon.ico",
+                "thumb_url": "https:\/\/static.arxiv.org\/icons\/twitter\/arxiv-logo-twitter-square.png",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2112.02191",
+                "fallback": "arXiv.org: NN-LUT: Neural Approximation of Non-Linear Operations for...",
+                "text": "Non-linear operations such as GELU, Layer normalization, and Softmax are\nessential yet costly building blocks of Transformer models. Several prior works\nsimplified these operations with look-up...",
+                "title": "NN-LUT: Neural Approximation of Non-Linear Operations for...",
+                "title_link": "https:\/\/arxiv.org\/abs\/2112.02191",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "thread_ts": "1677042670.445469",
+        "parent_user_id": "U04M091M3MZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04NQP19QJ0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4BF1B91F-9FD0-4EC2-BBC9-61A59416DB66",
+        "type": "message",
+        "text": "감사합니다!\n저번 오프라인 미팅때 교수님께서 발표하신 논문이군요, 다시 들어보면서 읽어보겠습니다! ",
+        "user": "U04M091M3MZ",
+        "ts": "1677044458.556479",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J3as",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "감사합니다!\n저번 오프라인 미팅때 교수님께서 발표하신 논문"
+                            },
+                            {
+                                "type": "text",
+                                "text": "이군요"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", "
+                            },
+                            {
+                                "type": "text",
+                                "text": "다시"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "들어보면서"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 읽어보"
+                            },
+                            {
+                                "type": "text",
+                                "text": "겠"
+                            },
+                            {
+                                "type": "text",
+                                "text": "습니다! "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7db5f8f30815",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4707823773350_7db5f8f30815f749cb56_72.png",
+            "first_name": "신종훈\/딥엑스",
+            "real_name": "신종훈\/딥엑스",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "jh.michael.shin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1677042670.445469",
+        "parent_user_id": "U04M091M3MZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M2NY6U2Y",
+                    "U04NQP19QJ0"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "36815A21-EC4F-462E-AD7D-3B876FD22673",
+        "type": "message",
+        "text": "저도 관심있는 주제긴한데, 아카이브에 올라온 <https:\/\/arxiv.org\/abs\/2207.01405|https:\/\/arxiv.org\/abs\/2207.01405> 도 있습니다. Tvm으로 layernorm, softmax가속을 목표로 합니다.",
+        "user": "U04LKU43D7Z",
+        "ts": "1677044691.877119",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CqAX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "저도 관심있는 주제긴한데, 아카이브에 올라온 "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2207.01405",
+                                "text": "https:\/\/arxiv.org\/abs\/2207.01405"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 도 있습니다. Tvm으로 layernorm, softmax가속을 목표로 합니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "bba3114c98fa",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4707892166534_bba3114c98fa5a613cdf_72.png",
+            "first_name": "이제민\/ETRI",
+            "real_name": "이제민\/ETRI",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "leejaymin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2207.01405",
+                "thumb_url": "https:\/\/static.arxiv.org\/icons\/twitter\/arxiv-logo-twitter-square.png",
+                "thumb_width": 1000,
+                "thumb_height": 1000,
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2207.01405",
+                "fallback": "arXiv.org: I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference",
+                "text": "Vision Transformers (ViTs) have achieved state-of-the-art performance on\nvarious computer vision applications. These models, however, have considerable\nstorage and computational overheads, making...",
+                "title": "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference",
+                "title_link": "https:\/\/arxiv.org\/abs\/2207.01405",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "thread_ts": "1677042670.445469",
+        "parent_user_id": "U04M091M3MZ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M2NY6U2Y",
+                    "U04M091M3MZ",
+                    "U04NQP19QJ0"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

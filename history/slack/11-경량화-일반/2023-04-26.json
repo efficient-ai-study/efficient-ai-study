@@ -1,0 +1,82 @@
+[
+    {
+        "client_msg_id": "2f1eb382-7979-402a-a85a-782c7c7b7577",
+        "type": "message",
+        "text": "LLM.int8 저자가 포함된 최신 quantization 논문 공유 드립니다. CLIP ViT-Huge 모델을 int8 로 quantizaion하면서 bfloat16 acc 기준 0.1% 차이라고 하네요\n<https:\/\/arxiv.org\/abs\/2304.13013>",
+        "user": "U04MCA1D8G5",
+        "ts": "1682561229.542429",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wTJUW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "LLM.int8 저자가 포함된 최신 quantization 논문 공유 드립니다. CLIP ViT-Huge 모델을 int8 로 quantizaion하면서 bfloat16 acc 기준 0.1% 차이라고 하네요\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2304.13013"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "4ebbf3206834",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-31\/4722679157830_4ebbf3206834975f879f_72.png",
+            "first_name": "변영훈\/POSTECH",
+            "real_name": "변영훈\/POSTECH",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "byh1321",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2304.13013",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/apple-touch-icon.png",
+                "thumb_url": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/arxiv-logo-fb.png",
+                "thumb_width": 1200,
+                "thumb_height": 700,
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2304.13013",
+                "fallback": "arXiv.org: Stable and low-precision training for large-scale vision-language models",
+                "text": "We introduce new methods for 1) accelerating and 2) stabilizing training for\nlarge language-vision models. 1) Towards accelerating training, we introduce\nSwitchBack, a linear layer for int8 quantized training which provides a\nspeed-up of 13-25% while matching the performance of bfloat16 training within\n0.1 percentage points for the 1B parameter CLIP ViT-Huge -- the largest int8\ntraining to date. Our main focus is int8 as GPU support for float8 is rare,\nthough we also analyze float8 training through simulation. While SwitchBack\nproves effective for float8, we show that standard techniques are also\nsuccessful if the network is trained and initialized so that large feature\nmagnitudes are discouraged, which we accomplish via layer-scale initialized\nwith zeros. 2) Towards stable training, we analyze loss spikes and find they\nconsistently occur 1-8 iterations after the squared gradients become\nunder-estimated by their AdamW second moment estimator. As a result, we\nrecommend an AdamW-Adafactor hybrid, which we refer to as StableAdamW because\nit avoids loss spikes when training a CLIP ViT-Huge model and outperforms\ngradient clipping.",
+                "title": "Stable and low-precision training for large-scale vision-language models",
+                "title_link": "https:\/\/arxiv.org\/abs\/2304.13013",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTPY7LES",
+                    "U04M091M3MZ",
+                    "U04M2NY6U2Y",
+                    "U053WJ8S3DH",
+                    "U04P9PBR562",
+                    "U04LYGJ3945",
+                    "U04MQ2J38JC",
+                    "U053XAD8NHY",
+                    "U04M05UHX7U",
+                    "U04LV2JHHB8",
+                    "U04LTT6NJ8N",
+                    "U04M2TTHAUU",
+                    "U04LXKFJLFP",
+                    "U0543933AHM"
+                ],
+                "count": 14
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+[
+{"user_id":"U054LAFFB08","user_name":"sangrok.lee","date":"1682396607","change_type":"added","app_type":"Jira Cloud","app_id":"A2RPP3NFR"},
+{"user_id":"U054LAFFB08","user_name":"sangrok.lee","date":"1682396606","change_type":"added","app_type":"Jira Cloud","app_id":"A2RPP3NFR","scope":"identify,channels:read,groups:read,im:read,mpim:read,channels:write,groups:write,links:read,links:write"},
+{"user_id":"U04M0FRJ2KD","user_name":"soulindarkness","date":"1679872350","change_type":"added","app_type":"Daily ProductHunt","app_id":"A04ST2NQT1P"},
+{"user_id":"U04M0FRJ2KD","user_name":"soulindarkness","date":"1679872349","change_type":"added","app_type":"Daily ProductHunt","app_id":"A04ST2NQT1P","scope":"identify,chat:write,im:write"},
+{"user_id":0,"user_name":"slack","date":"1678074398","change_type":"removed","reason":"user_deactivated","app_type":"OneDrive and SharePoint","app_id":"AJBCW09GU","scope":"identify,channels:read,groups:read,im:read,mpim:read,chat:write,links:read,links:write,remote_files:share,remote_files:read"},
+{"user_id":"U04M0DPAW74","user_name":"dice.jihoonpark","date":"1678068446","change_type":"added","app_type":"OneDrive and SharePoint","app_id":"AJBCW09GU"},
+{"user_id":"U04M0DPAW74","user_name":"dice.jihoonpark","date":"1678068445","change_type":"added","app_type":"OneDrive and SharePoint","app_id":"AJBCW09GU","scope":"identify,channels:read,groups:read,im:read,mpim:read,chat:write,links:read,links:write,remote_files:share,remote_files:read"}
+]

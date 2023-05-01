@@ -1,0 +1,145 @@
+[
+    {
+        "client_msg_id": "949D1B32-1CE0-4996-9825-8DBC1EA54508",
+        "type": "message",
+        "text": "<https:\/\/github.com\/HazyResearch\/H3|https:\/\/github.com\/HazyResearch\/H3>\n\nState space model 을 잘 활용해서 language model에 적용하는 논문 정도로 이해했습니다. ㅋㅋ Ssm 이 하드웨어 연산 측면에서 썩 좋은 편은 아닌지라 이를 해결하는 과정에서 flash conv라는게 생긴거 같네요 ㅋ",
+        "user": "U04MQ1B2BGQ",
+        "ts": "1676793485.914899",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1fX3d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/github.com\/HazyResearch\/H3",
+                                "text": "https:\/\/github.com\/HazyResearch\/H3"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nState space model 을 잘 활용해서 language model에 적용하는 논문 정도로 이해했습니다. ㅋㅋ Ssm 이 하드웨어 연산 측면에서 썩 "
+                            },
+                            {
+                                "type": "text",
+                                "text": "좋은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "편은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "아닌지라"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "이를"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "해결하는"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "과정에서"
+                            },
+                            {
+                                "type": "text",
+                                "text": " flash conv"
+                            },
+                            {
+                                "type": "text",
+                                "text": "라는게"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "생긴거"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "같네요"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅋ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "g7a293ad6775",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7a293ad6775108f392f3f2c988d0202e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Seungje",
+            "real_name": "Seungje Yoon\/ cmes",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "dbsdns",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/github.com\/HazyResearch\/H3",
+                "image_url": "https:\/\/opengraph.githubassets.com\/fb2718d753686af06ade69ea4508ce79374787763c5b456850a6d03a41fade9c\/HazyResearch\/H3",
+                "image_width": 1200,
+                "image_height": 600,
+                "image_bytes": 56012,
+                "service_icon": "https:\/\/a.slack-edge.com\/80588\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/HazyResearch\/H3",
+                "fallback": "GitHub: GitHub - HazyResearch\/H3: Language Modeling with the H3 State Space Model",
+                "text": "Language Modeling with the H3 State Space Model. Contribute to HazyResearch\/H3 development by creating an account on GitHub.",
+                "title": "GitHub - HazyResearch\/H3: Language Modeling with the H3 State Space Model",
+                "title_link": "https:\/\/github.com\/HazyResearch\/H3",
+                "service_name": "GitHub"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04M05UHX7U",
+                    "U04LTMVAQ4W"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

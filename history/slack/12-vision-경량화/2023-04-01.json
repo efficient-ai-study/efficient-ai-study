@@ -1,0 +1,259 @@
+[
+    {
+        "client_msg_id": "73ed6eb0-0bb8-431e-9eda-0d87b0fb803c",
+        "type": "message",
+        "text": "MobileOne - 애플에서 만든 모바일용 CV backbone\n<https:\/\/arxiv.org\/abs\/2206.04040|MobileOne: An Improved One Millisecond Mobile Backbone> (CVPR 2023)\n• 핵심 아이디어:\n    ◦ Training 때는 residual connection, parallel conv layer등을 잔뜩 사용하지만 이걸 전부 inference 때는 collapse 해 하나의 단일 conv layer로 만들어 사용합니다. 즉, inference 때는 re-parameterization을 하게 됩니다 (Figure를 보시면 바로 이해가 됩니다).\n    ◦ Re-parameterization 후에는 residual connection도 없어지고 conv - relu - conv -relu ... 이런 구조로 바뀝니다. 즉 대단히 inference에 효과적인 구조로 바뀝니다.\n    ◦ iPhone 12기준, CoreML로 돌렸을 때 *5\/10\/15M param 모델이 0.89\/1.53\/1.86 ms 밖에 걸리지 않습니다* (224x224)...\n• 의견:\n    ◦ 사실 이런 re-parameterization은 기존에 여러 개 있었습니다 (저자들도 참고했다고 말합니다) [1][2] 이 논문은 그 아이디어를 아주 잘 다듬어서 모바일에서 빠르게 동작시킨 게 포인트인 것 같습니다.\n        ▪︎ [1] <https:\/\/arxiv.org\/abs\/2101.03697|RepVGG: Making VGG-style ConvNets Great Again> (CVPR 2021)\n        ▪︎ [2] <https:\/\/arxiv.org\/abs\/2203.06717|Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs> (CVPR 2022)\n    ◦ 논문 전체가 약간 애플 기술 설명회(CoreML) 느낌이라서, 사실 누가봐도 애플이 썼겠구나 싶을 것 같긴 합니다 ㅎㅎ;; 개인적으로는 CVPR과 잘 맞는 논문인 것 같습니다.\n    ◦ Over-parameterization이 주는 이득이 small model에서 크다는 것이 계속 보여지고 있는데, CV 외의 다른 분야에서도 이런 게 통할지 궁금해집니다. ",
+        "user": "U04MQ2J38JC",
+        "ts": "1680366463.807509",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lct",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "MobileOne - 애플에서 만든 모바일용 CV backbone\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2206.04040",
+                                "text": "MobileOne: An Improved One Millisecond Mobile Backbone"
+                            },
+                            {
+                                "type": "text",
+                                "text": " (CVPR 2023)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "핵심 아이디어:"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Training 때는 residual connection, parallel conv layer등을 잔뜩 사용하지만 이걸 전부 inference 때는 collapse 해 하나의 단일 conv layer로 만들어 사용합니다. 즉, inference 때는 re-parameterization을 하게 됩니다 (Figure를 보시면 바로 이해가 됩니다)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Re-parameterization 후에는 residual connection도 없어지고 conv - relu - conv -relu ... 이런 구조로 바뀝니다. 즉 대단히 inference에 효과적인 구조로 바뀝니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "iPhone 12기준, CoreML로 돌렸을 때"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " 5\/10\/15M param 모델이 0.89\/1.53\/1.86 ms 밖에 걸리지 않습니다",
+                                        "style": {
+                                            "bold": true
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (224x224)..."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "의견:"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "사실 이런 re-parameterization은 기존에 여러 개 있었습니다 (저자들도 참고했다고 말합니다) [1][2] 이 논문은 그 아이디어를 아주 잘 다듬어서 모바일에서 빠르게 동작시킨 게 포인트인 것 같습니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "[1] "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2101.03697",
+                                        "text": "RepVGG: Making VGG-style ConvNets Great Again"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (CVPR 2021)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "[2] "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2203.06717",
+                                        "text": "Scaling Up Your Kernels to 31x31: Revisiting Large Kernel Design in CNNs"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " (CVPR 2022)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 2,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "논문 전체가 약간 애플 기술 설명회(CoreML) 느낌이라서, 사실 누가봐도 애플이 썼겠구나 싶을 것 같긴 합니다 ㅎㅎ;; 개인적으로는 CVPR과 잘 맞는 논문인 것 같습니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Over-parameterization이 주는 이득이 small model에서 크다는 것이 계속 보여지고 있는데, CV 외의 다른 분야에서도 이런 게 통할지 궁금해집니다. "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "3e494054f705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4714393981186_3e494054f7050068883f_72.png",
+            "first_name": "심규홍\/퀄컴",
+            "real_name": "심규홍\/퀄컴",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "khshim20",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1680366463.807509",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1680537820.674119",
+        "reply_users": [
+            "U04MQ2J38JC"
+        ],
+        "replies": [
+            {
+                "user": "U04MQ2J38JC",
+                "ts": "1680537820.674119"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M2NY6U2Y",
+                    "U04MQHDJ12L",
+                    "U04P9PBR562",
+                    "U04M091M3MZ",
+                    "U04LYGJ3945",
+                    "U04NCHEUQP2",
+                    "U04M05UHX7U",
+                    "U04LTMVAQ4W",
+                    "U04LTPY7LES",
+                    "U04QJNZDDFB",
+                    "U04M09VRR3L",
+                    "U04M3UUAZTN",
+                    "U04LL3W56F9",
+                    "U04LU2NN8TY",
+                    "U04MQ1B2BGQ",
+                    "U04MCUU74TT",
+                    "U04LXEQS5PF",
+                    "U04LXBEEHMK",
+                    "U04MADK8SF4",
+                    "U04LY25D7C5"
+                ],
+                "count": 20
+            }
+        ]
+    }
+]

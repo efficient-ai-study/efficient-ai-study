@@ -1,0 +1,310 @@
+[
+    {
+        "client_msg_id": "24D6CEEE-823A-40B7-AD5C-0F9505D2879F",
+        "type": "message",
+        "text": "<https:\/\/arxiv.org\/abs\/2302.14017|https:\/\/arxiv.org\/abs\/2302.14017>\n제목이 곧 내용 ㅋ",
+        "user": "U04MQ1B2BGQ",
+        "ts": "1678085412.426169",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+MSF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2302.14017",
+                                "text": "https:\/\/arxiv.org\/abs\/2302.14017"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "제목이"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "곧"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "내용"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅋ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "g7a293ad6775",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7a293ad6775108f392f3f2c988d0202e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Seungje",
+            "real_name": "Seungje Yoon\/ cmes",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "dbsdns",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2302.14017",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2302.14017",
+                "fallback": "arXiv.org: Full Stack Optimization of Transformer Inference: a Survey",
+                "text": "Recent advances in state-of-the-art DNN architecture design have been moving\ntoward Transformer models. These models achieve superior accuracy across a wide\nrange of applications. This trend has been consistent over the past several\nyears since Transformer models were originally introduced. However, the amount\nof compute and bandwidth required for inference of recent Transformer models is\ngrowing at a significant rate, and this has made their deployment in\nlatency-sensitive applications challenging. As such, there has been an\nincreased focus on making Transformer models more efficient, with methods that\nrange from changing the architecture design, all the way to developing\ndedicated domain-specific accelerators. In this work, we survey different\napproaches for efficient Transformer inference, including: (i) analysis and\nprofiling of the bottlenecks in existing Transformer architectures and their\nsimilarities and differences with previous convolutional models; (ii)\nimplications of Transformer architecture on hardware, including the impact of\nnon-linear operations such as Layer Normalization, Softmax, and GELU, as well\nas linear operations, on hardware design; (iii) approaches for optimizing a\nfixed Transformer architecture; (iv) challenges in finding the right mapping\nand scheduling of operations for Transformer models; and (v) approaches for\noptimizing Transformer models by adapting the architecture using neural\narchitecture search. Finally, we perform a case study by applying the surveyed\noptimizations on Gemmini, the open-source, full-stack DNN accelerator\ngenerator, and we show how each of these approaches can yield improvements,\ncompared to previous benchmark results on Gemmini. Among other things, we find\nthat a full-stack co-design approach with the aforementioned methods can result\nin up to 88.7x speedup with a minimal performance degradation for Transformer\ninference.",
+                "title": "Full Stack Optimization of Transformer Inference: a Survey",
+                "title_link": "https:\/\/arxiv.org\/abs\/2302.14017",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "thread_ts": "1678085412.426169",
+        "reply_count": 5,
+        "reply_users_count": 3,
+        "latest_reply": "1678155086.399489",
+        "reply_users": [
+            "U04M05UHX7U",
+            "U04MQ1B2BGQ",
+            "U04M2NY6U2Y"
+        ],
+        "replies": [
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1678085819.705949"
+            },
+            {
+                "user": "U04M05UHX7U",
+                "ts": "1678085960.996249"
+            },
+            {
+                "user": "U04MQ1B2BGQ",
+                "ts": "1678086143.709879"
+            },
+            {
+                "user": "U04M2NY6U2Y",
+                "ts": "1678155007.240739"
+            },
+            {
+                "user": "U04MQ1B2BGQ",
+                "ts": "1678155086.399489"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": true,
+        "last_read": "1678155086.399489",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTMVAQ4W",
+                    "U04M05UHX7U",
+                    "U04M091M3MZ",
+                    "U04MQ2J38JC",
+                    "U04M2NY6U2Y",
+                    "U04M0B0PWMQ"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d49aff8-f122-4525-afd4-f1ee22df13dd",
+        "type": "message",
+        "text": "<https:\/\/arxiv.org\/search\/cs?searchtype=author&amp;query=Keutzer%2C+K|Kurt Keutzer> 연구실이군요.. ㅎㅎ 김세훈님은 I-BERT 저자였던것으로 기억하구요.",
+        "user": "U04M05UHX7U",
+        "ts": "1678085819.705949",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nth",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/search\/cs?searchtype=author&query=Keutzer%2C+K",
+                                "text": "Kurt Keutzer"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 연구실이군요.. ㅎㅎ 김세훈님은 I-BERT 저자였던것으로 기억하구요."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678085412.426169",
+        "parent_user_id": "U04MQ1B2BGQ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04MQ1B2BGQ",
+                    "U04M091M3MZ",
+                    "U04M06CDVC3",
+                    "U04M2NY6U2Y"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f1fe6985-31d4-4dfd-abbe-0f2263b6dbe8",
+        "type": "message",
+        "text": "large language model은 별로 고려대상이 아닌게 아쉽네요.",
+        "user": "U04M05UHX7U",
+        "ts": "1678085960.996249",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "grIi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "large language model은 별로 고려대상이 아닌게 아쉽네요."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678085412.426169",
+        "parent_user_id": "U04MQ1B2BGQ",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U04MQ1B2BGQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "20AE1653-EA49-4634-9D6C-14C6AAD3F81F",
+        "type": "message",
+        "text": "<https:\/\/arxiv.org\/abs\/2302.07863|https:\/\/arxiv.org\/abs\/2302.07863> 아쉬움은 이걸로라도 ㅋㅋ",
+        "user": "U04MQ1B2BGQ",
+        "ts": "1678086143.709879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0be+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/arxiv.org\/abs\/2302.07863",
+                                "text": "https:\/\/arxiv.org\/abs\/2302.07863"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "아쉬움은"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "이걸로라도"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅋㅋ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "g7a293ad6775",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7a293ad6775108f392f3f2c988d0202e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Seungje",
+            "real_name": "Seungje Yoon\/ cmes",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "dbsdns",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/arxiv.org\/abs\/2302.07863",
+                "service_icon": "https:\/\/static.arxiv.org\/static\/browse\/0.3.4\/images\/icons\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/arxiv.org\/abs\/2302.07863",
+                "fallback": "arXiv.org: Big Little Transformer Decoder",
+                "text": "The recent emergence of Large Language Models based on the Transformer\narchitecture has enabled dramatic advancements in the field of Natural Language\nProcessing. However, these models have long inference latency, which limits\ntheir deployment, and which makes them prohibitively expensive for various\nreal-time applications. The inference latency is further exacerbated by\nautoregressive generative tasks, as models need to run iteratively to generate\ntokens sequentially without leveraging token-level parallelization. To address\nthis, we propose Big Little Decoder (BiLD), a framework that can improve\ninference efficiency and latency for a wide range of text generation\napplications. The BiLD framework contains two models with different sizes that\ncollaboratively generate text. The small model runs autoregressively to\ngenerate text with a low inference cost, and the large model is only invoked\noccasionally to refine the small model's inaccurate predictions in a\nnon-autoregressive manner. To coordinate the small and large models, BiLD\nintroduces two simple yet effective policies: (1) the fallback policy that\ndetermines when to hand control over to the large model; and (2) the rollback\npolicy that determines when the large model needs to review and correct the\nsmall model's inaccurate predictions. To evaluate our framework across\ndifferent tasks and models, we apply BiLD to various text generation scenarios\nencompassing machine translation on IWSLT 2017 De-En and WMT 2014 De-En,\nsummarization on CNN\/DailyMail, and language modeling on WikiText-2. On an\nNVIDIA Titan Xp GPU, our framework achieves a speedup of up to 2.13x without\nany performance drop, and it achieves up to 2.38x speedup with only ~1 point\ndegradation. Furthermore, our framework is fully plug-and-play as it does not\nrequire any training or modifications to model architectures. Our code will be\nopen-sourced.",
+                "title": "Big Little Transformer Decoder",
+                "title_link": "https:\/\/arxiv.org\/abs\/2302.07863",
+                "service_name": "arXiv.org"
+            }
+        ],
+        "thread_ts": "1678085412.426169",
+        "parent_user_id": "U04MQ1B2BGQ"
+    }
+]
