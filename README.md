@@ -26,7 +26,8 @@ When | Who | What | Links | Issue # | Etc.
 5/10 | TBD | - | - | - | -
 5/17 | TBD | - | - | - | -
 5/24 | TBD | - | - | - | -
-5/31 | TBD | - | - | - | -
+5/31 | 박상수 | DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-based
+Text Generation | https://arxiv.org/pdf/2209.10797.pdf | #5 | -
 6/7 | TBD | - | - | - | -
 6/14 | TBD | - | - | - | -
 6/21 | TBD | - | - | - | -
