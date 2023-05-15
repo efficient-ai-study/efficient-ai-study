@@ -29,7 +29,8 @@ When | Who | What | Links | Issue # | Etc.
 5/31 | TBD | - | - | - | -
 6/7 | TBD | - | - | - | -
 6/14 | TBD | - | - | - | -
-6/21 | TBD | - | - | - | -
+6/21 | 김도형 | NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for
+Vision Transformers (CVPR-2023) | https://arxiv.org/abs/2211.16056 | #8 | -
 6/28 | TBD | - | - | - | -
 7/5 | TBD | - | - | - | -
 7/12 | TBD | - | - | - | -
