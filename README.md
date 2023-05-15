@@ -28,7 +28,7 @@ When | Who | What | Links | Issue # | Etc.
 5/24 | TBD | - | - | - | -
 5/31 | 박상수 | DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-basedText Generation | https://arxiv.org/pdf/2209.10797.pdf | #5 | -
 6/7 | TBD | - | - | - | -
-6/14 | TBD | - | - | - | -
+6/14 | 강병하 | - | - | #7 | -
 6/21 | 김도형 | NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers (CVPR-2023) | https://arxiv.org/abs/2211.16056 | #8 | -
 6/28 | TBD | - | - | - | -
 7/5 | TBD | - | - | - | -
