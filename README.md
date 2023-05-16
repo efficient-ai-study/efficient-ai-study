@@ -31,7 +31,7 @@ When | Who | What | Links | Issue # | Etc.
 6/14 | 강병하 | - | - | #7 | -
 6/21 | 김도형 | NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers (CVPR-2023) | https://arxiv.org/abs/2211.16056 | #8 | -
 6/28 | TBD | - | - | - | -
-7/5 | TBD | - | - | - | -
+7/5 | 박다훈 | Reparameterized Technique | https://openaccess.thecvf.com/content/CVPR2021/papers/Ding_RepVGG_Making_VGG-Style_ConvNets_Great_Again_CVPR_2021_paper.pdf | #10 | -
 7/12 | TBD | - | - | - | -
 7/19 | TBD | - | - | - | -
 7/26 | TBD | - | - | - | -
