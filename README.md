@@ -33,7 +33,7 @@ When | Who | What | Links | Issue # | Etc.
 6/28 |  김정훈 | FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization | N/A yet | - | -
 7/5 | 박다훈 | Reparameterized Technique | https://arxiv.org/abs/2101.03697 , https://arxiv.org/pdf/2212.01593.pdf | #10 | -
 7/12 | 이승현 | - | - | - | -
-7/19 | TBD | - | - | - | -
+7/19 | 심규홍 | Speculative Sampling | https://arxiv.org/abs/2302.01318, https://arxiv.org/abs/2211.17192 | #12 | -
 7/26 | TBD | - | - | - | -
 
 ## 논문 후보 (Neurips 2022 & ICLR 2023) - 추가 예정
