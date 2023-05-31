@@ -1,0 +1,234 @@
+[
+    {
+        "client_msg_id": "57565ec1-56db-4546-8c8e-d31842bc2f0a",
+        "type": "message",
+        "text": "최근 활발히 연구되고 있는 image generative model의 추론 속도를 높이는 방법을 제시하는 논문입니다:\n<https:\/\/www.cs.cmu.edu\/~sige\/|Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models >(NeurIPS 2022)\n• 핵심 아이디어: 최근 image editing 용도로 사용되는 generative model의 연산을 줄이기 위해, 사용자가 \"edit\" 하기로 표시한 부분만 새로 계산하고 나머지는 원래 이미지에서 미리 계산해 놓은 feature를 사용합니다.\n    ◦ 이를 위해 무거운 operation들을 합친 fused kernel을 사용합니다 (<https:\/\/github.com\/lmxyy\/sige|Code>)\n    ◦ 사용자들이 보통 10% under의 edit area를 사용한다는 걸 근거로 하는 것 같고, 많아야 15% 로 보는 것 같습니다.\n    ◦ 처음 한 번 original image의 feature를 계산해 놔야 해서 약간 GPU 메모리가 더 필요합니다.\n• 성능: GAN-based, Diffusion-based 모델에서, edit area 면적에 따라 다르지만, 3배 이상 inference speedup이 있습니다. (RTX 3090 GPU &amp; Apple M1 CPU)\n• 의견: 아이디어는 간단하지만 구현하는 것이 얼마나 중요한 지를 보여줍니다.\n    ◦ 예전의 <https:\/\/arxiv.org\/abs\/2110.15352|MCUNet-V2>, <https:\/\/github.com\/uber-research\/sbnet|SBNet> 등에서 patch-based inference를 선보인 적이 있는데, 이와 유사한 방법론이라고 생각합니다.\n    ◦ Structured sparsity가 모델 구조 디자인, 모델 최적화 단계 뿐만 아니라 모델 추론 과정에서도 중요하다는 걸 다시 한번 느끼게 됩니다.",
+        "user": "U04MQ2J38JC",
+        "ts": "1675592585.090869",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Z=e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "최근 활발히 연구되고 있는 image generative model의 추론 속도를 높이는 방법을 제시하는 논문입니다:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.cs.cmu.edu\/~sige\/",
+                                "text": "Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models "
+                            },
+                            {
+                                "type": "text",
+                                "text": "(NeurIPS 2022)\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "핵심 아이디어: 최근 image editing 용도로 사용되는 generative model의 연산을 줄이기 위해, 사용자가 \"edit\" 하기로 표시한 부분만 새로 계산하고 나머지는 원래 이미지에서 미리 계산해 놓은 feature를 사용합니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "이를 위해 무거운 operation들을 합친 fused kernel을 사용합니다 ("
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/github.com\/lmxyy\/sige",
+                                        "text": "Code"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ")"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "사용자들이 보통 10% under의 edit area를 사용한다는 걸 근거로 하는 것 같고, 많아야 15% 로 보는 것 같습니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "처음 한 번 original image의 feature를 계산해 놔야 해서 약간 GPU 메모리가 더 필요합니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "성능: GAN-based, Diffusion-based 모델에서, edit area 면적에 따라 다르지만, 3배 이상 inference speedup이 있습니다. (RTX 3090 GPU & Apple M1 CPU)"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "의견: 아이디어는 간단하지만 구현하는 것이 얼마나 중요한 지를 보여줍니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "예전의 "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/arxiv.org\/abs\/2110.15352",
+                                        "text": "MCUNet-V2"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": ", "
+                                    },
+                                    {
+                                        "type": "link",
+                                        "url": "https:\/\/github.com\/uber-research\/sbnet",
+                                        "text": "SBNet"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": " 등에서 patch-based inference를 선보인 적이 있는데, 이와 유사한 방법론이라고 생각합니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Structured sparsity가 모델 구조 디자인, 모델 최적화 단계 뿐만 아니라 모델 추론 과정에서도 중요하다는 걸 다시 한번 느끼게 됩니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "3e494054f705",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4714393981186_3e494054f7050068883f_72.png",
+            "first_name": "심규홍\/퀄컴",
+            "real_name": "심규홍\/퀄컴",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "khshim20",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675592585.090869",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1677079165.741169",
+        "reply_users": [
+            "U04MQ6GUEPJ"
+        ],
+        "replies": [
+            {
+                "user": "U04MQ6GUEPJ",
+                "ts": "1677079165.741169"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTPY7LES",
+                    "U04LV2JHHB8",
+                    "U04LTNE8FHU",
+                    "U04LXBEEHMK",
+                    "U04M2NY6U2Y",
+                    "U04M09VRR3L",
+                    "U04M0CJUUCT",
+                    "U04LKPBUQ23",
+                    "U04M31F24CU",
+                    "U04LYGJ3945",
+                    "U04M05UHX7U",
+                    "U04MQ1B2BGQ",
+                    "U04M06CM95H",
+                    "U04M2QUG7NY",
+                    "U04LXKFJLFP",
+                    "U04LL3W56F9",
+                    "U04M091M3MZ",
+                    "U04LV1TC17Y",
+                    "U04LTT6NJ8N",
+                    "U04MR94VA68",
+                    "U04M3UUAZTN",
+                    "U04MDFZ3NTB",
+                    "U04M46B4N3W",
+                    "U04MMGPP1A5",
+                    "U04LTMVAQ4W",
+                    "U04LKU43D7Z",
+                    "U04MD0HNM4Z",
+                    "U04MD4D7CBT",
+                    "U04NQP19QJ0",
+                    "U04M0B0PWMQ",
+                    "U04MQ6GUEPJ"
+                ],
+                "count": 31
+            }
+        ]
+    }
+]

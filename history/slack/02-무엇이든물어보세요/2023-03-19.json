@@ -1,0 +1,90 @@
+[
+    {
+        "client_msg_id": "0b866319-3ea1-4180-8857-f4b128b80020",
+        "type": "message",
+        "text": "안녕하세요,\n질문 방은 저 혼자 쓰는 것 같지만! 위의 질문의 답이 너무나 도움이 되어 또 올려봅니다 :slightly_smiling_face:\nPruning \/ Sparsity 관련해서 좋은 서베이 논문이나 흥미로운 논문 추천 부탁드려도 될까요?\n일전에 Slack에 올라온 Neural Magic 논문은 재밌게 읽었습니다!:+1:",
+        "user": "U04M091M3MZ",
+        "ts": "1679287693.091879",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HF4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요,\n질문 방은 저 혼자 쓰는 것 같지만! 위의 질문의 답이 너무나 도움이 되어 또 올려봅니다 "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face",
+                                "unicode": "1f642"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nPruning \/ Sparsity 관련해서 좋은 서베이 논문이나 흥미로운 논문 추천 부탁드려도 될까요?\n일전에 Slack에 올라온 Neural Magic 논문은 재밌게 읽었습니다!"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1",
+                                "unicode": "1f44d"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7db5f8f30815",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4707823773350_7db5f8f30815f749cb56_72.png",
+            "first_name": "신종훈\/딥엑스",
+            "real_name": "신종훈\/딥엑스",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "jh.michael.shin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1679287693.091879",
+        "reply_count": 3,
+        "reply_users_count": 2,
+        "latest_reply": "1679391469.311369",
+        "reply_users": [
+            "U04LTMVAQ4W",
+            "U04M091M3MZ"
+        ],
+        "replies": [
+            {
+                "user": "U04LTMVAQ4W",
+                "ts": "1679361359.341209"
+            },
+            {
+                "user": "U04LTMVAQ4W",
+                "ts": "1679361494.860469"
+            },
+            {
+                "user": "U04M091M3MZ",
+                "ts": "1679391469.311369"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTPY7LES",
+                    "U04MQ1B2BGQ",
+                    "U04LYGJ3945",
+                    "U04LTMVAQ4W"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

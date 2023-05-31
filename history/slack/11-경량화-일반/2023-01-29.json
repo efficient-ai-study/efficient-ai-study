@@ -1,0 +1,195 @@
+[
+    {
+        "client_msg_id": "9dd5e4d0-25c7-4616-b250-384730d1b124",
+        "type": "message",
+        "text": "세중님, 논문과는 별개의 질문인데 혹시 뉴럴매직의 DeepSparse 엔진 사용해보신 적 있으신가요??",
+        "user": "U04M06CM95H",
+        "ts": "1674990505.072459",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ia27C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "세중님, 논문과는 별개의 질문인데 혹시 뉴럴매직의 DeepSparse 엔진 사용해보신 적 있으신가요??"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "605a6dc8fe19",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699798344263_605a6dc8fe199045f0bc_72.jpg",
+            "first_name": "김형준",
+            "real_name": "김형준",
+            "display_name": "김형준\/스퀴즈비츠",
+            "team": "T04MCQMEXQ9",
+            "name": "hyungjun.kim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U04MQ1B2BGQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f7befd72-1be9-48f8-9e86-ab0781cb091d",
+        "type": "message",
+        "text": "<@U04M06CM95H> 안그래도 그걸 한번 여기다가 정리할까 하는데.. 1년전쯤에 봤을때는 BERT말고 딴데 적용하면 되겠냐 싶었고.. Fine-grained Pruning + TAR 압축이라는 정신 나간 압축율 리포트가 맘에 안들었었습니다. 최근 EMNLP 논문도 있고 그래서 다시 봐야지 하고 있습니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1674995999.378529",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fmri",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04M06CM95H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 안그래도 그걸 한번 여기다가 정리할까 하는데.. 1년전쯤에 봤을때는 BERT말고 딴데 적용하면 되겠냐 싶었고.. Fine-grained Pruning + TAR 압축이라는 정신 나간 압축율 리포트가 맘에 안들었었습니다. 최근 EMNLP 논문도 있고 그래서 다시 봐야지 하고 있습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "eyes",
+                "users": [
+                    "U04M1LKNQUB"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b30eeb8-f532-45f0-ba2f-2b81543c132e",
+        "type": "message",
+        "text": "<@U04M06CM95H> 다시 보긴 하더라도, 이 팀의 강점은 결국 CPU 커널이라는 생각에는 변함이 없구요. 실력이야 있지만 확장성이 있을까 하는 아쉬움이 있습니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1674996045.832319",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vUX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04M06CM95H"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 다시 보긴 하더라도, 이 팀의 강점은 결국 CPU 커널이라는 생각에는 변함이 없구요. 실력이야 있지만 확장성이 있을까 하는 아쉬움이 있습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1674974187.082859",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U04MQ1B2BGQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2b7afd2-9e3d-4325-8302-54ce65a23cd8",
+        "type": "message",
+        "text": "상당히 흥미로운 모임이네요",
+        "user": "U04M1R5SD8A",
+        "ts": "1675047726.081539",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yfZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "상당히 흥미로운 모임이네요"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "d107f9f50898",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4715855968466_d107f9f50898dc876377_72.png",
+            "first_name": "MIKE",
+            "real_name": "MIKE DAN",
+            "display_name": "MIKE DAN",
+            "team": "T04MCQMEXQ9",
+            "name": "dan1989mike",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]

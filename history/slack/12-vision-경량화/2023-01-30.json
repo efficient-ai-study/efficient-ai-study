@@ -1,0 +1,229 @@
+[
+    {
+        "client_msg_id": "d78b04e1-9b52-4579-a78e-2a6dd65975f4",
+        "type": "message",
+        "text": "논문을 보며 조금 헷갈리는데, 왜 portion of remaining weights가 높으면 성능이 낮게 나올까요?",
+        "user": "U04LL3W56F9",
+        "ts": "1675066965.932479",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "n2ki",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "논문을 보며 조금 헷갈리는데, 왜 portion of remaining weights가 높으면 성능이 낮게 나올까요?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "da9e9b936e49",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4727308105281_da9e9b936e4974fcbfe1_72.png",
+            "first_name": "이광한",
+            "real_name": "이광한",
+            "display_name": "이광한\/성균관대",
+            "team": "T04MCQMEXQ9",
+            "name": "ican0016",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "a4ca9c31-51ff-402a-8380-6833f1205ba9",
+        "type": "message",
+        "text": "<@U04LL3W56F9> weight가 random한 값으로 초기화 된 상태에서 score update를 통해 필요하지 않은(방해하는?) weight를 쳐내기 때문에 그렇습니다.",
+        "user": "U04M2QUG7NY",
+        "ts": "1675067222.410549",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "00a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04LL3W56F9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " weight가 random한 값으로 초기화 된 상태에서 score update를 통해 필요하지 않은(방해하는?) weight를 쳐내기 때문에 그렇습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "gd111e475fac",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/d111e475fac19c138c3ded1119dfcbdf.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0008-72.png",
+            "first_name": "이경준",
+            "real_name": "이경준",
+            "display_name": "이경준\/POSTECH",
+            "team": "T04MCQMEXQ9",
+            "name": "jack.kjlee",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U04LL3W56F9",
+                    "U04MQ1B2BGQ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "client_msg_id": "86e4c9ec-a1fa-47f6-98cd-ebd26ee343b2",
+        "type": "message",
+        "text": "<@U04LL3W56F9> 경준님 말씀이 맞습니다. 일반적인 pruning 방법으로 이해하시면 안되는 그래프입니다.. ㅎㅎ..",
+        "user": "U04M05UHX7U",
+        "ts": "1675067261.799429",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "po0HQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U04LL3W56F9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " 경준님 말씀이 맞습니다. 일반적인 pruning 방법으로 이해하시면 안되는 그래프입니다.. ㅎㅎ.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "e7bf62fd-0296-4316-9280-bb68521594b0",
+        "type": "message",
+        "text": "아.. 그럼 weights update는 전혀 없이 pruned subnetwork를 찾는다는거죠??",
+        "user": "U04LL3W56F9",
+        "ts": "1675068110.712779",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hPK+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "아.. 그럼 weights update는 전혀 없이 pruned subnetwork를 찾는다는거죠??"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "da9e9b936e49",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4727308105281_da9e9b936e4974fcbfe1_72.png",
+            "first_name": "이광한",
+            "real_name": "이광한",
+            "display_name": "이광한\/성균관대",
+            "team": "T04MCQMEXQ9",
+            "name": "ican0016",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U"
+    },
+    {
+        "client_msg_id": "5ea08632-324e-413a-b525-79b65da81758",
+        "type": "message",
+        "text": "옙 맞습니다.",
+        "user": "U04M05UHX7U",
+        "ts": "1675068604.734459",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tty",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "옙 맞습니다."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "8160001f5214",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699744492023_8160001f52148d13414d_72.jpg",
+            "first_name": "권세중\/네이버클라우드",
+            "real_name": "권세중\/네이버클라우드",
+            "display_name": "권세중\/네이버클라우드",
+            "team": "T04MCQMEXQ9",
+            "name": "sejung.kwon",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1675062351.979489",
+        "parent_user_id": "U04M05UHX7U",
+        "reactions": [
+            {
+                "name": "raised_hands",
+                "users": [
+                    "U04LL3W56F9"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

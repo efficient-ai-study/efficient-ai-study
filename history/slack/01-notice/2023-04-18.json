@@ -1,0 +1,191 @@
+[
+    {
+        "client_msg_id": "aac6763e-41b2-4aa0-8c2f-485732289479",
+        "type": "message",
+        "text": "안녕하세요, 2023 AI 경량화 Study를 진행하려고 합니다.\n오늘부터 4월 27일 (목) 23:59까지 참가 신청을 받고자 하니 많은 관심 부탁드립니다. 참가 의사가 있으신 분은 구글 폼 작성을 부탁드립니다:\n<https:\/\/docs.google.com\/forms\/d\/1rXJ1gITLYNHO3n7UfMDcx0zhZvoYCLVkskeUfUmc0To>\n\n정식 공지는 본 슬랙 채널에만 이루어질 예정입니다만 스터디 자체는 공개로 모집하고 있어 혹시 주변에 관심있으신 분들이 계시면 자유롭게 링크 공유해주셔도 됩니다!! 스터디 진행 시 미팅 링크 등의 공유도 슬랙에서 이루어질 예정이므로 슬랙 채널 링크도 함께 공유 해 주세요. 감사합니다!!",
+        "user": "U04MQ6GUEPJ",
+        "ts": "1681879392.072319",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AOqU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "안녕하세요, 2023 AI 경량화 Study를 진행하려고 합니다.\n오늘부터 4월 27일 (목) 23:59까지 참가 신청을 받고자 하니 많은 관심 부탁드립니다. 참가 의사가 있으신 분은 구글 폼 작성을 부탁드립니다:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/docs.google.com\/forms\/d\/1rXJ1gITLYNHO3n7UfMDcx0zhZvoYCLVkskeUfUmc0To"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\n정식 공지는 본 슬랙 채널에만 이루어질 예정입니다만 스터디 자체는 공개로 모집하고 있어 혹시 주변에 관심있으신 분들이 계시면 자유롭게 링크 공유해주셔도 됩니다!! 스터디 진행 시 미팅 링크 등의 공유도 슬랙에서 이루어질 예정이므로 슬랙 채널 링크도 함께 공유 해 주세요. 감사합니다!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "e60bb2cbc117",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-29\/5182625196550_e60bb2cbc117b6a0a6b0_72.jpg",
+            "first_name": "김태수\/스퀴즈비츠",
+            "real_name": "김태수\/스퀴즈비츠",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "taesu.kim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681879392.072319",
+        "reply_count": 2,
+        "reply_users_count": 2,
+        "latest_reply": "1681882924.916149",
+        "reply_users": [
+            "U04M091M3MZ",
+            "U04MQ6GUEPJ"
+        ],
+        "replies": [
+            {
+                "user": "U04M091M3MZ",
+                "ts": "1681882310.810089"
+            },
+            {
+                "user": "U04MQ6GUEPJ",
+                "ts": "1681882924.916149"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04LTPY7LES",
+                    "U04LTMVAQ4W",
+                    "U04M05UHX7U",
+                    "U04MQ1B2BGQ",
+                    "U04LTMXAU3Y",
+                    "U04M059CL67",
+                    "U04MD0HNM4Z",
+                    "U04M2NY6U2Y",
+                    "U04M1RMCVQB",
+                    "U04M091M3MZ",
+                    "U04M0FCLZAN",
+                    "U04LXFZ4277",
+                    "U04LU2NN8TY",
+                    "U04MQ2J38JC",
+                    "U053S7VJV2S",
+                    "U04LXBG8GAZ",
+                    "U04M0CV8DHR",
+                    "U04MR94VA68",
+                    "U053XAVDJFQ",
+                    "U04QJNZDDFB",
+                    "U04LXKFJLFP",
+                    "U04LKU43D7Z",
+                    "U04LTMFBF2A",
+                    "U04M31F24CU",
+                    "U04LTT6NJ8N"
+                ],
+                "count": 25
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4d6d757-1c63-4696-864d-12096b676c5e",
+        "type": "message",
+        "text": "구글 시트에서 참석 가능한 스터디 시간 항목에 행마다 최소한 하나의 응답을 작성해야 하는데 적용 범위가 요일 이 아니라 시간으로 되어있는데 의도하신 바가 맞을까요?",
+        "user": "U04M091M3MZ",
+        "ts": "1681882310.810089",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f8Z0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "구글 시트에서 참석 가능한 스터디 시간 항목에 행마다 최소한 하나의 응답을 작성해야 하는데 적용 범위가 요일 이 아니라 시간으로 되어있는데 의도하신 바가 맞을까요?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7db5f8f30815",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-28\/4707823773350_7db5f8f30815f749cb56_72.png",
+            "first_name": "신종훈\/딥엑스",
+            "real_name": "신종훈\/딥엑스",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "jh.michael.shin",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681879392.072319",
+        "parent_user_id": "U04MQ6GUEPJ"
+    },
+    {
+        "client_msg_id": "4ab064f1-c1f1-4422-84c0-8e33edfa6f68",
+        "type": "message",
+        "text": "원래 의도는 최소 한칸 이상이었는데 행마다 한칸으로 적용이 되고 있었네요. 참여하실 분들은 굳이 아무것도 체크 안하거나 하시지 않을 것 같아 조건을 풀어 놓았습니다. 알려주셔서 감사합니다~",
+        "user": "U04MQ6GUEPJ",
+        "ts": "1681882924.916149",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zrY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "원래 의도는 최소 한칸 이상이었는데 행마다 한칸으로 적용이 되고 있었네요. 참여하실 분들은 굳이 아무것도 체크 안하거나 하시지 않을 것 같아 조건을 풀어 놓았습니다. 알려주셔서 감사합니다~"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "e60bb2cbc117",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-04-29\/5182625196550_e60bb2cbc117b6a0a6b0_72.jpg",
+            "first_name": "김태수\/스퀴즈비츠",
+            "real_name": "김태수\/스퀴즈비츠",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "taesu.kim",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1681879392.072319",
+        "parent_user_id": "U04MQ6GUEPJ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04M091M3MZ",
+                    "U04M05UHX7U"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

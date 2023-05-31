@@ -1,0 +1,142 @@
+[
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674964625.162119",
+        "user": "U04M05UHX7U",
+        "text": "<@U04M05UHX7U> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674965369.949489",
+        "user": "U04M059CL67",
+        "text": "<@U04M059CL67> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674966634.603569",
+        "user": "U04M2NY6U2Y",
+        "text": "<@U04M2NY6U2Y> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968154.121059",
+        "user": "U04LTMFBF2A",
+        "text": "<@U04LTMFBF2A> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968202.710989",
+        "user": "U04LKPBTEVD",
+        "text": "<@U04LKPBTEVD> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968206.382139",
+        "user": "U04LKPBUQ23",
+        "text": "<@U04LKPBUQ23> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968207.738749",
+        "user": "U04LXBEEHMK",
+        "text": "<@U04LXBEEHMK> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968248.483929",
+        "user": "U04LTMGEMLN",
+        "text": "<@U04LTMGEMLN> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968354.340329",
+        "user": "U04LXBG8GAZ",
+        "text": "<@U04LXBG8GAZ> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968394.123789",
+        "user": "U04MQ0RCNGY",
+        "text": "<@U04MQ0RCNGY> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968405.406089",
+        "user": "U04M06CDVC3",
+        "text": "<@U04M06CDVC3> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968412.026289",
+        "user": "U04M06CM95H",
+        "text": "<@U04M06CM95H> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968533.217609",
+        "user": "U04M09VRR3L",
+        "text": "<@U04M09VRR3L> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674968924.457639",
+        "user": "U04MCUU74TT",
+        "text": "<@U04MCUU74TT> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969148.613689",
+        "user": "U04LTMVAQ4W",
+        "text": "<@U04LTMVAQ4W> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969222.655069",
+        "user": "U04M2PXD15J",
+        "text": "<@U04M2PXD15J> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969225.115939",
+        "user": "U04MCUY6M33",
+        "text": "<@U04MCUY6M33> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969304.802489",
+        "user": "U04LTMXAU3Y",
+        "text": "<@U04LTMXAU3Y> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674969807.993979",
+        "user": "U04MQ1B2BGQ",
+        "text": "<@U04MQ1B2BGQ> 님이 채널에 참여함"
+    },
+    {
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1674970234.898529",
+        "user": "U04M0AJF3U2",
+        "text": "<@U04M0AJF3U2> 님이 채널에 참여함"
+    }
+]

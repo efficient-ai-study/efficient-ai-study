@@ -1,0 +1,213 @@
+[
+    {
+        "client_msg_id": "7866a6d4-28b3-4403-b02b-c1551c0daf09",
+        "type": "message",
+        "text": "저는 김세훈님께서 최근에 쓰신 Big Little Transformer Decoder 이 논문 되게 재밌게 읽었는데요..\n\n• Small Decoder Model 을 AR(Auto-Regressive) Inference Generation 으로 활용할 때, 이 작은 모델이 생성하는 Token 중 20% 정도만 Larger Decoder Model 에서 나오는 단어로 중간에 바꿔주기만 하면, 생성 품질을 Large Model 과 비슷하게 만들어줄 수 있다는 인사이트에서 시작된 논문 입니다.\n• 따라서 Small Model 이 만드는 Token 의 예측 확률 (Confidence) 를 활용해서 얘가 좀 자신 없는 단어를 만든 것 같다 싶으면, 큰 모델에서의 결과를 가져다 쓰게 되는데, \n    ◦ 여기서 한 가지 괜찮은 아이디어라 생각한 점은 큰 모델을 매번 옆에서 inference 를 같이 해주는게 아니고, 작은 모델 단어를 교체해줘야겠다 싶을 때 그 시점에서 작은 모델이 이전에 만든 단어들 (Context) 을 Large Model 에 Summarizaiton Style 로 inference 를 시켜주는 겁니다.\n    ◦ Summarization Style inference 는 AR inference 보다 훨씬 빠르니, 중간중간 Large Model Inference 해주는 것에 대한 overhead 는 최소화 할 수 있는 것이죠)\n• 그렇게 해서 작은 모델을 사용하면서 품질을 유지하여 AR decoding 속도를 빠르게 하자는게 이 논문의 주 컨셉인데, 결과를 보면 최대 2.38 배 까지 생성 속도를 빠르게 할 수 있다고 합니다.\n    ◦ 한 가지 의문스러운 점은 예측 단어 확률의 최댓값을 Confidence 로 잡아 알고리즘을 만들다보니, Greedy Search 에서는 사용하기 좋겠다만, 다른 decoding strategy (Beam Search, Tok-K Sampling) 에서는 사용하기 어렵지 않을까 싶습니다. 실제로 Speculative Sampling Method 방식과 속도 비교를 해본 결과를 보면 번역\/요약 에서 각각 0.06\/0.48 배 정도만 빨라지는 것 같구요..\n    ◦ 아무래도 큰 모델을 계속 옆에 둬야하니 메모리 관점에서는 효율적이라고 보기 어렵지 않을까 싶습니다. 요즘 같이 chatGPT 처럼 LLM 을 AR Generation 서비스에 주로 사용하는 상황에서는 더더욱 활용하기 어려운 알고리즘 같기도 하구요..\n이러한 경량화(보다는 최적화가 맞겠죠..?) 알고리즘에 대해서 실제 서비스 제공 관점에서는 어떻게 보시나요? 저는 논문만 봤을 때 Generation-Style, Summarization-Style 연산 스타일의 차이를 정확히 알고 이를 활용했다는 점, 첫 번째로 말씀드렸던 인사이트가 흥미로운 발견이라 생각해서 되게 좋은 연구라고 생각했습니다만, 실제 Generation Task 를 활용하여 서비스를 제공해야하는 분들의 관점에선 아무래도 연구적인 스타일에 가까운 결과물이라 봐야할지, 어떻게 생각하시는지 궁금합니다 :)",
+        "user": "U04M2NY6U2Y",
+        "ts": "1678155007.240739",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YNJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "저는 김세훈님께서 최근에 쓰신 Big Little Transformer Decoder 이 논문 되게 재밌게 읽었는데요..\n\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Small Decoder Model 을 AR(Auto-Regressive) Inference Generation 으로 활용할 때, 이 작은 모델이 생성하는 Token 중 20% 정도만 Larger Decoder Model 에서 나오는 단어로 중간에 바꿔주기만 하면, 생성 품질을 Large Model 과 비슷하게 만들어줄 수 있다는 인사이트에서 시작된 논문 입니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "따라서 Small Model 이 만드는 Token 의 예측 확률 (Confidence) 를 활용해서 얘가 좀 자신 없는 단어를 만든 것 같다 싶으면, 큰 모델에서의 결과를 가져다 쓰게 되는데, "
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "여기서 한 가지 괜찮은 아이디어라 생각한 점은 큰 모델을 매번 옆에서 inference 를 같이 해주는게 아니고, 작은 모델 단어를 교체해줘야겠다 싶을 때 그 시점에서 작은 모델이 이전에 만든 단어들 (Context) 을 Large Model 에 Summarizaiton Style 로 inference 를 시켜주는 겁니다."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "Summarization Style inference 는 AR inference 보다 훨씬 빠르니, 중간중간 Large Model Inference 해주는 것에 대한 overhead 는 최소화 할 수 있는 것이죠)"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "그렇게 해서 작은 모델을 사용하면서 품질을 유지하여 AR decoding 속도를 빠르게 하자는게 이 논문의 주 컨셉인데, 결과를 보면 최대 2.38 배 까지 생성 속도를 빠르게 할 수 있다고 합니다."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "한 가지 의문스러운 점은 예측 단어 확률의 최댓값을 Confidence 로 잡아 알고리즘을 만들다보니, Greedy Search 에서는 사용하기 좋겠다만, 다른 decoding strategy (Beam Search, Tok-K Sampling) 에서는 사용하기 어렵지 않을까 싶습니다. 실제로 Speculative Sampling Method 방식과 속도 비교를 해본 결과를 보면 번역\/요약 에서 각각 0.06\/0.48 배 정도만 빨라지는 것 같구요.."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "아무래도 큰 모델을 계속 옆에 둬야하니 메모리 관점에서는 효율적이라고 보기 어렵지 않을까 싶습니다. 요즘 같이 chatGPT 처럼 LLM 을 AR Generation 서비스에 주로 사용하는 상황에서는 더더욱 활용하기 어려운 알고리즘 같기도 하구요.."
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 1,
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\n이러한 경량화(보다는 최적화가 맞겠죠..?) 알고리즘에 대해서 실제 서비스 제공 관점에서는 어떻게 보시나요? 저는 논문만 봤을 때 Generation-Style, Summarization-Style 연산 스타일의 차이를 정확히 알고 이를 활용했다는 점, 첫 번째로 말씀드렸던 인사이트가 흥미로운 발견이라 생각해서 되게 좋은 연구라고 생각했습니다만, 실제 Generation Task 를 활용하여 서비스를 제공해야하는 분들의 관점에선 아무래도 연구적인 스타일에 가까운 결과물이라 봐야할지, 어떻게 생각하시는지 궁금합니다 :)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "7026e9e9c4f8",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2023-01-29\/4699821662839_7026e9e9c4f8501ee814_72.png",
+            "first_name": "김민수\/한양대",
+            "real_name": "김민수\/한양대",
+            "display_name": "김민수\/한양대",
+            "team": "T04MCQMEXQ9",
+            "name": "minsoo2333",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678085412.426169",
+        "parent_user_id": "U04MQ1B2BGQ",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U04MQ1B2BGQ",
+                    "U04M091M3MZ",
+                    "U04LKU43D7Z",
+                    "U04M1LKNQUB",
+                    "U04MQ2J38JC",
+                    "U04LTMVAQ4W"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "client_msg_id": "C9337578-9132-405E-86B3-67DCFEF44B8A",
+        "type": "message",
+        "text": "감사합니다 ㅋ",
+        "user": "U04MQ1B2BGQ",
+        "ts": "1678155086.399489",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gPsZa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "감사합니다"
+                            },
+                            {
+                                "type": "text",
+                                "text": " ㅋ"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T04MCQMEXQ9",
+        "user_team": "T04MCQMEXQ9",
+        "source_team": "T04MCQMEXQ9",
+        "user_profile": {
+            "avatar_hash": "g7a293ad6775",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/7a293ad6775108f392f3f2c988d0202e.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0026-72.png",
+            "first_name": "Seungje",
+            "real_name": "Seungje Yoon\/ cmes",
+            "display_name": "",
+            "team": "T04MCQMEXQ9",
+            "name": "dbsdns",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1678085412.426169",
+        "parent_user_id": "U04MQ1B2BGQ",
+        "reactions": [
+            {
+                "name": "man-bowing",
+                "users": [
+                    "U04M2NY6U2Y"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
