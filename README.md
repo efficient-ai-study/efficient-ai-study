@@ -28,7 +28,7 @@ When | Who | What | Links | Issue # | Etc.
 5/24 | TBD | - | - | - | -
 5/31 | 박상수 | DFX: A Low-latency Multi-FPGA Appliance for Accelerating Transformer-based Text Generation | https://arxiv.org/pdf/2209.10797.pdf | #5 | -
 6/7 | 전은주 | LoRA: Low-Rank Adaptation of Large Language Models | https://openreview.net/forum?id=nZeVKeeFYf9 | #6 | -
-6/14 | 강병하 | - | - | #7 | -
+6/14 | 강병하 | ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences | https://openreview.net/forum?id=F7NQzsl334D | #7 | -
 6/21 | 김도형 | NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers (CVPR-2023) | https://arxiv.org/abs/2211.16056 | #8 | -
 6/28 |  김정훈 | FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization | N/A yet | - | -
 7/5 | 박다훈 | Reparameterized Technique | https://arxiv.org/abs/2101.03697 , https://arxiv.org/pdf/2212.01593.pdf | #10 | -
