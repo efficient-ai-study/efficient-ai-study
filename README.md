@@ -34,7 +34,7 @@ When | Who | What | Links | Issue # | Etc.
 7/5 | 박다훈 | Reparameterized Technique | https://arxiv.org/abs/2101.03697 , https://arxiv.org/pdf/2212.01593.pdf | #10 | -
 7/12 | 이승현 | - | - | - | -
 7/19 | 심규홍 | Speculative Sampling | https://arxiv.org/abs/2302.01318, https://arxiv.org/abs/2211.17192 | #12 | -
-7/26 | TBD | - | - | - | -
+7/26 | 허남규 | Model Distillation | https://arxiv.org/abs/2212.10071 | #14 | -
 
 ## 논문 후보 (Neurips 2022 & ICLR 2023) - 추가 예정
 아직 공개가 되지 않은 논문도 많긴하지만, 차차 공개될 것으로 예상합니다.
